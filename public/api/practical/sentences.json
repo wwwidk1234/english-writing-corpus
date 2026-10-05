@@ -1,0 +1,938 @@
+[
+  {
+    "id": 1,
+    "content": "I am writing to invite you to our school's Traditional Chinese Culture Festival.",
+    "translation": "我写信邀请你来参加我们学校的中国传统文化节。",
+    "tags": [
+      "邀请信",
+      "开头"
+    ]
+  },
+  {
+    "id": 2,
+    "content": "I would appreciate it if you could give us some advice on the activity.",
+    "translation": "如果你能就这次活动给我们一些建议，我将不胜感激。",
+    "tags": [
+      "邀请信",
+      "请求"
+    ]
+  },
+  {
+    "id": 3,
+    "content": "Please let me know at your earliest convenience whether you can make it.",
+    "translation": "请尽早告知我你能否参加。",
+    "tags": [
+      "邀请信",
+      "结尾"
+    ]
+  },
+  {
+    "id": 4,
+    "content": "On behalf of our class, I am delighted to extend a warm welcome to you.",
+    "translation": "我谨代表全班同学，非常高兴地向你表示热烈欢迎。",
+    "tags": [
+      "欢迎辞",
+      "开头"
+    ]
+  },
+  {
+    "id": 5,
+    "content": "I am writing to apply for the position of volunteer for the coming sports meet.",
+    "translation": "我写信申请担任即将到来的运动会的志愿者。",
+    "tags": [
+      "申请信",
+      "开头"
+    ]
+  },
+  {
+    "id": 6,
+    "content": "I am confident that I am well qualified for the job.",
+    "translation": "我有信心自己完全能胜任这份工作。",
+    "tags": [
+      "申请信",
+      "优势"
+    ]
+  },
+  {
+    "id": 7,
+    "content": "I would be grateful if you could take my application into consideration.",
+    "translation": "如果您能考虑我的申请，我将不胜感激。",
+    "tags": [
+      "申请信",
+      "结尾"
+    ]
+  },
+  {
+    "id": 8,
+    "content": "I am sorry to tell you that I cannot attend the meeting scheduled for next Friday.",
+    "translation": "很抱歉告诉你，我无法参加定于下周五的会议。",
+    "tags": [
+      "道歉信",
+      "开头"
+    ]
+  },
+  {
+    "id": 9,
+    "content": "Please accept my sincere apologies for any inconvenience caused.",
+    "translation": "对于造成的任何不便，请接受我诚挚的歉意。",
+    "tags": [
+      "道歉信",
+      "结尾"
+    ]
+  },
+  {
+    "id": 10,
+    "content": "I am writing to express my heartfelt thanks for your generous help.",
+    "translation": "我写信是为了对你慷慨的帮助表示衷心的感谢。",
+    "tags": [
+      "感谢信",
+      "开头"
+    ]
+  },
+  {
+    "id": 11,
+    "content": "I am more than willing to offer my help whenever you are in need.",
+    "translation": "无论何时你需要帮助，我都非常乐意伸出援手。",
+    "tags": [
+      "建议信",
+      "承诺"
+    ]
+  },
+  {
+    "id": 12,
+    "content": "Would it be convenient for you to join us at three o'clock this Saturday afternoon?",
+    "translation": "你这周六下午三点来和我们一起，方便吗？",
+    "tags": [
+      "邀请信",
+      "征询"
+    ]
+  },
+  {
+    "id": 13,
+    "content": "The activity is scheduled to take place in the school lecture hall.",
+    "translation": "这次活动定于学校报告厅举行。",
+    "tags": [
+      "通知",
+      "活动信息"
+    ]
+  },
+  {
+    "id": 14,
+    "content": "Everyone is expected to arrive ten minutes ahead of time.",
+    "translation": "请所有人提前十分钟到达。",
+    "tags": [
+      "通知",
+      "要求"
+    ]
+  },
+  {
+    "id": 15,
+    "content": "Please feel free to contact me if you have any questions.",
+    "translation": "如有任何疑问，请随时与我联系。",
+    "tags": [
+      "通知",
+      "结尾"
+    ]
+  },
+  {
+    "id": 16,
+    "content": "Looking forward to your early reply.",
+    "translation": "期待你的早日回复。",
+    "tags": [
+      "书信",
+      "结尾"
+    ]
+  },
+  {
+    "id": 17,
+    "content": "I am looking forward to hearing from you soon.",
+    "translation": "期待很快收到你的来信。",
+    "tags": [
+      "书信",
+      "结尾"
+    ]
+  },
+  {
+    "id": 18,
+    "content": "Thank you again for your timely help, without which I could not have finished the project.",
+    "translation": "再次感谢你的及时帮助，没有它我无法完成这个项目。",
+    "tags": [
+      "感谢信",
+      "结尾"
+    ]
+  },
+  {
+    "id": 19,
+    "content": "Were it not for your generous support, the activity could never have been such a success.",
+    "translation": "要不是你慷慨的支持，这次活动绝不可能如此成功。",
+    "tags": [
+      "感谢信",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 20,
+    "content": "Had I not followed your advice, I would have missed a chance of a lifetime.",
+    "translation": "要不是听了你的建议，我就会错过一生难得的机会。",
+    "tags": [
+      "感谢信",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 21,
+    "content": "Should you have any questions about the schedule, please do not hesitate to contact me.",
+    "translation": "若你对日程有任何疑问，请随时与我联系。",
+    "tags": [
+      "通知",
+      "倒装"
+    ]
+  },
+  {
+    "id": 22,
+    "content": "No sooner had I received your letter than I began to make preparations for the coming festival.",
+    "translation": "我一收到你的来信，就开始为即将到来的节日做准备。",
+    "tags": [
+      "邀请信",
+      "倒装"
+    ]
+  },
+  {
+    "id": 23,
+    "content": "Not only does the activity enrich our school life, but it also broadens our horizons.",
+    "translation": "这项活动不仅丰富了我们的校园生活，还开阔了我们的视野。",
+    "tags": [
+      "活动介绍",
+      "倒装"
+    ]
+  },
+  {
+    "id": 24,
+    "content": "Only by practising every day can we make noticeable progress in English writing.",
+    "translation": "只有每天练习，我们才能在英语写作上取得明显进步。",
+    "tags": [
+      "建议信",
+      "倒装"
+    ]
+  },
+  {
+    "id": 25,
+    "content": "Seldom have I seen a more inspiring performance than the one given by the volunteers last Friday.",
+    "translation": "我很少见到比上周五志愿者们奉献的那场更鼓舞人心的表演。",
+    "tags": [
+      "活动介绍",
+      "倒装"
+    ]
+  },
+  {
+    "id": 26,
+    "content": "Never before had our class worked together so closely for a common goal.",
+    "translation": "我们班从未像这样为了共同的目标如此紧密地合作过。",
+    "tags": [
+      "感悟",
+      "倒装"
+    ]
+  },
+  {
+    "id": 27,
+    "content": "Great as the difficulties were, we managed to finish the whole project on time.",
+    "translation": "尽管困难很大，我们还是设法按时完成了整个项目。",
+    "tags": [
+      "感悟",
+      "倒装"
+    ]
+  },
+  {
+    "id": 28,
+    "content": "Much as I would like to attend your party, I regret to say that I have to prepare for an exam.",
+    "translation": "虽然我很想参加你的聚会，但很抱歉我不得不备考。",
+    "tags": [
+      "道歉信",
+      "倒装"
+    ]
+  },
+  {
+    "id": 29,
+    "content": "Hardly had I settled into my seat when the meeting began.",
+    "translation": "我刚坐定，会议就开始了。",
+    "tags": [
+      "通知",
+      "倒装"
+    ]
+  },
+  {
+    "id": 30,
+    "content": "Not until we lost the match did we realize how much teamwork really mattered.",
+    "translation": "直到输了比赛，我们才意识到团队合作有多重要。",
+    "tags": [
+      "感悟",
+      "倒装"
+    ]
+  },
+  {
+    "id": 31,
+    "content": "Nowhere else could I have found such friendly and patient classmates.",
+    "translation": "在别处我再也找不到这样友好又耐心的同学了。",
+    "tags": [
+      "感谢信",
+      "倒装"
+    ]
+  },
+  {
+    "id": 32,
+    "content": "Such was his devotion to the project that he often worked late into the night.",
+    "translation": "他对这个项目如此投入，以至于常常工作到深夜。",
+    "tags": [
+      "感谢信",
+      "倒装"
+    ]
+  },
+  {
+    "id": 33,
+    "content": "It was your encouragement that gave me the courage to carry on.",
+    "translation": "正是你的鼓励给了我坚持下去的勇气。",
+    "tags": [
+      "感谢信",
+      "强调句"
+    ]
+  },
+  {
+    "id": 34,
+    "content": "It was not until I read your letter that I understood what real friendship meant.",
+    "translation": "直到读了你的信，我才明白真正的友谊意味着什么。",
+    "tags": [
+      "感谢信",
+      "强调句"
+    ]
+  },
+  {
+    "id": 35,
+    "content": "It is strongly recommended that every student take an active part in the coming activity.",
+    "translation": "强烈建议每位同学都积极参加即将到来的活动。",
+    "tags": [
+      "建议信",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 36,
+    "content": "It is essential that we should make full use of every chance to practise our spoken English.",
+    "translation": "我们有必要充分利用每一个练习英语口语的机会。",
+    "tags": [
+      "建议信",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 37,
+    "content": "I would rather you told me the truth than comforted me with a white lie.",
+    "translation": "我宁愿你告诉我实情，也不愿你用善意的谎言安慰我。",
+    "tags": [
+      "建议信",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 38,
+    "content": "There is no denying that reading widely and writing regularly contribute greatly to the improvement of our writing ability.",
+    "translation": "不可否认，广泛阅读与经常写作对提高我们的写作能力大有帮助。",
+    "tags": [
+      "建议信",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 39,
+    "content": "There is no point in complaining about the result; what we should do is to find out the reason.",
+    "translation": "抱怨结果没有意义；我们应该做的是找出原因。",
+    "tags": [
+      "建议信",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 40,
+    "content": "Nothing could be more encouraging than the moment when our teacher announced that our proposal had been approved.",
+    "translation": "没有什么比老师宣布我们的提议获得通过的那一刻更令人鼓舞了。",
+    "tags": [
+      "感悟",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 41,
+    "content": "It goes without saying that a well-organized letter leaves a far better impression on the reader.",
+    "translation": "不言而喻，一封结构清晰的信会给读者留下好得多的印象。",
+    "tags": [
+      "建议信",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 42,
+    "content": "The reason why I admire her is that she never gives up, however hard the situation may be.",
+    "translation": "我钦佩她的原因在于，无论处境多么艰难，她从不放弃。",
+    "tags": [
+      "感悟",
+      "定语从句"
+    ]
+  },
+  {
+    "id": 43,
+    "content": "The lecture, which will be given by an experienced foreign teacher, is scheduled to last from two to four in the afternoon in the school library.",
+    "translation": "这场讲座将由一位经验丰富的外教主讲，定于下午两点到四点在校园图书馆举行。",
+    "tags": [
+      "通知",
+      "定语从句"
+    ]
+  },
+  {
+    "id": 44,
+    "content": "Those who are interested are welcome to sign up at the Students' Union before this Friday.",
+    "translation": "有兴趣的同学请在周五前到学生会报名。",
+    "tags": [
+      "通知",
+      "定语从句"
+    ]
+  },
+  {
+    "id": 45,
+    "content": "As is shown in the chart, the number of students taking part in voluntary work has been rising steadily over the past three years.",
+    "translation": "如图表所示，参与志愿工作的学生人数在过去三年里稳步上升。",
+    "tags": [
+      "图表作文",
+      "定语从句"
+    ]
+  },
+  {
+    "id": 46,
+    "content": "What impressed me most was the enthusiasm of the volunteers, who devoted their spare time to helping others.",
+    "translation": "最令我印象深刻的是志愿者们的热情，他们利用业余时间去帮助他人。",
+    "tags": [
+      "活动介绍",
+      "主语从句"
+    ]
+  },
+  {
+    "id": 47,
+    "content": "What matters most in learning a language is not the number of words you memorize but the way you put them to use.",
+    "translation": "学语言最重要的不是记住多少单词，而是如何把它们用起来。",
+    "tags": [
+      "建议信",
+      "主语从句"
+    ]
+  },
+  {
+    "id": 48,
+    "content": "Whether the plan will work remains to be seen, but it is certainly worth a try.",
+    "translation": "这个计划是否奏效还有待观察，但确实值得一试。",
+    "tags": [
+      "建议信",
+      "主语从句"
+    ]
+  },
+  {
+    "id": 49,
+    "content": "Whoever breaks the rule will have to explain himself to the whole class.",
+    "translation": "无论谁违反规定，都得向全班解释。",
+    "tags": [
+      "通知",
+      "主语从句"
+    ]
+  },
+  {
+    "id": 50,
+    "content": "The moment I stepped into the hall, I was deeply impressed by the lively atmosphere.",
+    "translation": "我走进大厅的那一刻，就被热烈的气氛深深打动了。",
+    "tags": [
+      "活动介绍",
+      "时间状语从句"
+    ]
+  },
+  {
+    "id": 51,
+    "content": "Wherever there is a need, you will find our volunteers ready to lend a hand.",
+    "translation": "哪里需要帮助，哪里就有我们随时伸出援手的志愿者。",
+    "tags": [
+      "活动介绍",
+      "状语从句"
+    ]
+  },
+  {
+    "id": 52,
+    "content": "As long as we keep our goal in mind, no difficulty is too great to overcome.",
+    "translation": "只要我们牢记目标，就没有克服不了的困难。",
+    "tags": [
+      "感悟",
+      "状语从句"
+    ]
+  },
+  {
+    "id": 53,
+    "content": "In case you are unable to come, please let me know in advance so that we can rearrange the seats.",
+    "translation": "万一你不能来，请提前告知我，以便我们重新安排座位。",
+    "tags": [
+      "邀请信",
+      "状语从句"
+    ]
+  },
+  {
+    "id": 54,
+    "content": "Compared with the traditional way of shopping, online shopping saves us both time and energy.",
+    "translation": "与传统的购物方式相比，网上购物为我们既省时又省力。",
+    "tags": [
+      "建议信",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 55,
+    "content": "Faced with so many choices, many students find it hard to decide which course to take.",
+    "translation": "面对如此多的选择，许多学生发现很难决定选哪门课。",
+    "tags": [
+      "建议信",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 56,
+    "content": "Having spent two weeks preparing for the contest, she walked onto the stage with quiet confidence.",
+    "translation": "为比赛准备了两周后，她带着沉静的自信走上舞台。",
+    "tags": [
+      "活动介绍",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 57,
+    "content": "To make our school a better place to study in, we are launching a campaign against littering.",
+    "translation": "为让学校成为更好的学习场所，我们正在发起一场反对乱扔垃圾的活动。",
+    "tags": [
+      "倡议书",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 58,
+    "content": "Judging from his expression, he was far from satisfied with the arrangement.",
+    "translation": "从他的表情判断，他对这个安排远不满意。",
+    "tags": [
+      "感悟",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 59,
+    "content": "On hearing the good news, the whole class burst into cheers.",
+    "translation": "一听到这个好消息，全班爆发出欢呼声。",
+    "tags": [
+      "活动介绍",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 60,
+    "content": "Blessed with such supportive classmates, I have every reason to be confident about our success.",
+    "translation": "有如此支持我的同学，我完全有理由对我们的成功充满信心。",
+    "tags": [
+      "感悟",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 61,
+    "content": "Honesty, rather than cleverness, is what we value most in a friend.",
+    "translation": "我们看重的朋友品质是诚实，而非聪明。",
+    "tags": [
+      "感悟",
+      "插入语"
+    ]
+  },
+  {
+    "id": 62,
+    "content": "To be honest, what troubles me most is not the difficulty of the task but the lack of time.",
+    "translation": "说实话，最困扰我的不是任务有多难，而是时间不够。",
+    "tags": [
+      "建议信",
+      "插入语"
+    ]
+  },
+  {
+    "id": 63,
+    "content": "Generally speaking, the earlier you start, the more likely you are to achieve your goal.",
+    "translation": "一般来说，你开始得越早，就越有可能实现目标。",
+    "tags": [
+      "建议信",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 64,
+    "content": "Taking everything into consideration, I am firmly convinced that the plan is practical and worthwhile.",
+    "translation": "综合考虑，我坚信这个计划切实可行且值得一做。",
+    "tags": [
+      "建议信",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 65,
+    "content": "It suddenly occurred to me that a handwritten card might express my gratitude far better than an expensive gift.",
+    "translation": "我突然想到，一张手写的卡片也许比昂贵的礼物更能表达我的感激。",
+    "tags": [
+      "感谢信",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 66,
+    "content": "I wonder if it would be convenient for you to share with us how you managed to balance study and hobbies.",
+    "translation": "不知你是否方便与我们分享你是如何平衡学习与爱好的。",
+    "tags": [
+      "邀请信",
+      "宾语从句"
+    ]
+  },
+  {
+    "id": 67,
+    "content": "Allow me to express my sincere gratitude for the timely help you offered when I was at a loss.",
+    "translation": "请允许我对你在我茫然无措时给予的及时帮助表示诚挚的感谢。",
+    "tags": [
+      "感谢信",
+      "长难句"
+    ]
+  },
+  {
+    "id": 68,
+    "content": "Any suggestion you may have about the arrangement will be highly appreciated.",
+    "translation": "你对安排提出的任何建议，我们都将不胜感激。",
+    "tags": [
+      "邀请信",
+      "长难句"
+    ]
+  },
+  {
+    "id": 69,
+    "content": "Nothing would please me more than to see our efforts turn into something meaningful for the whole school.",
+    "translation": "没有什么比看到我们的努力为全校带来有意义的改变更让我高兴的了。",
+    "tags": [
+      "感悟",
+      "长难句"
+    ]
+  },
+  {
+    "id": 70,
+    "content": "We would be more than happy if you could spare some time to comment on our plan.",
+    "translation": "如你能抽空对我们的计划加以评论，我们将非常高兴。",
+    "tags": [
+      "邀请信",
+      "长难句"
+    ]
+  },
+  {
+    "id": 71,
+    "content": "I am writing to invite you to attend our English speech contest.",
+    "translation": "我写信邀请你参加我们的英语演讲比赛。",
+    "tags": [
+      "邀请信",
+      "开头"
+    ]
+  },
+  {
+    "id": 72,
+    "content": "The contest will be held in the school auditorium next Friday afternoon.",
+    "translation": "比赛将于下周五下午在学校礼堂举行。",
+    "tags": [
+      "邀请信",
+      "活动信息"
+    ]
+  },
+  {
+    "id": 73,
+    "content": "I would appreciate it if you could reply before this Thursday.",
+    "translation": "如果你能在本周四之前回复，我将不胜感激。",
+    "tags": [
+      "邀请信",
+      "结尾"
+    ]
+  },
+  {
+    "id": 74,
+    "content": "Please accept my sincere apologies for missing your birthday party.",
+    "translation": "请接受我因错过你的生日聚会而致的诚挚歉意。",
+    "tags": [
+      "道歉信",
+      "开头"
+    ]
+  },
+  {
+    "id": 75,
+    "content": "To make up for it, I would like to treat you to dinner this weekend.",
+    "translation": "为了弥补，我想这周末请你吃饭。",
+    "tags": [
+      "道歉信",
+      "建议"
+    ]
+  },
+  {
+    "id": 76,
+    "content": "There is no denying that a well-organized application letter, brief as it is, can leave a far deeper impression than a lengthy one.",
+    "translation": "不可否认，一封结构良好的申请信虽然简短，却能比冗长的信留下深刻得多的印象。",
+    "tags": [
+      "申请信",
+      "长难句"
+    ]
+  },
+  {
+    "id": 77,
+    "content": "Not only should we take an active part in the activity, but we should also encourage those around us to join in.",
+    "translation": "我们不仅应积极参加活动，还应鼓励身边的人一起加入。",
+    "tags": [
+      "倡议书",
+      "倒装"
+    ]
+  },
+  {
+    "id": 78,
+    "content": "It was not until I read your letter that I came to understand how much a few words of encouragement can mean to a person in trouble.",
+    "translation": "直到读了你的信，我才明白几句鼓励的话对一个身处困境的人有多重要。",
+    "tags": [
+      "感谢信",
+      "强调句"
+    ]
+  },
+  {
+    "id": 79,
+    "content": "Should it rain on the day of the sports meet, the opening ceremony will be moved to the school hall.",
+    "translation": "如果运动会当天下雨，开幕式将改在学校礼堂举行。",
+    "tags": [
+      "通知",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 80,
+    "content": "Whatever suggestion you may have, we would be more than happy to hear it before Friday.",
+    "translation": "无论你有什么建议，我们都非常乐意在周五前听到。",
+    "tags": [
+      "邀请信",
+      "让步状语从句"
+    ]
+  },
+  {
+    "id": 81,
+    "content": "Any student who wishes to take part in the speech contest is required to hand in his application before the end of this month.",
+    "translation": "凡希望参加演讲比赛的同学，须在本月底前提交申请。",
+    "tags": [
+      "通知",
+      "定语从句"
+    ]
+  },
+  {
+    "id": 82,
+    "content": "The reason why I am writing to you is that I would like to invite you to give a lecture on Western culture.",
+    "translation": "我写信给你的原因是想邀请你就西方文化做一次讲座。",
+    "tags": [
+      "邀请信",
+      "定语从句"
+    ]
+  },
+  {
+    "id": 83,
+    "content": "As far as I am concerned, what counts is not how much we give but how much thought we put into it.",
+    "translation": "就我而言，重要的不是我们付出多少，而是我们投入了多少心意。",
+    "tags": [
+      "感悟",
+      "主语从句"
+    ]
+  },
+  {
+    "id": 84,
+    "content": "Given that the hall can only hold two hundred people, those who arrive late may have to stand.",
+    "translation": "考虑到礼堂只能容纳两百人，晚到的人可能得站着。",
+    "tags": [
+      "通知",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 85,
+    "content": "Compared with simply giving money, spending time with those in need means far more to them.",
+    "translation": "与单纯捐钱相比，花时间陪伴需要帮助的人对他们意义大得多。",
+    "tags": [
+      "建议信",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 86,
+    "content": "Owing to the heavy rain, the outing originally scheduled for Saturday has been put off till next weekend.",
+    "translation": "由于大雨，原定周六的郊游已推迟到下周末。",
+    "tags": [
+      "通知",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 87,
+    "content": "In order that every student could take part, the organizers decided to hold the activity twice.",
+    "translation": "为了让每位同学都能参加，组织者决定把活动举办两次。",
+    "tags": [
+      "通知",
+      "目的状语从句"
+    ]
+  },
+  {
+    "id": 88,
+    "content": "Now that we have collected enough money, the next step is to decide how it should be spent.",
+    "translation": "既然我们已募得足够的钱，下一步是决定该怎么用。",
+    "tags": [
+      "倡议书",
+      "时间状语从句"
+    ]
+  },
+  {
+    "id": 89,
+    "content": "On no account should we ignore the small acts of kindness that make our school a warmer place.",
+    "translation": "我们绝不应忽视那些让校园更温暖的小小善举。",
+    "tags": [
+      "倡议书",
+      "倒装"
+    ]
+  },
+  {
+    "id": 90,
+    "content": "Under no circumstances will we give up the plan, however many difficulties we may meet.",
+    "translation": "无论遇到多少困难，我们绝不会放弃这个计划。",
+    "tags": [
+      "倡议书",
+      "倒装"
+    ]
+  },
+  {
+    "id": 91,
+    "content": "Only when everyone plays his part can the activity achieve the result we have been hoping for.",
+    "translation": "只有当每个人都尽到自己的一份力，活动才能达到我们期待的效果。",
+    "tags": [
+      "倡议书",
+      "倒装"
+    ]
+  },
+  {
+    "id": 92,
+    "content": "Had it not been for the volunteers, the whole event would have ended in complete confusion.",
+    "translation": "要不是有志愿者们，整个活动会在彻底的混乱中结束。",
+    "tags": [
+      "感谢信",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 93,
+    "content": "I would appreciate it if you could let me know at your earliest convenience whether the time suits you.",
+    "translation": "如果您能尽早告知这个时间是否合适，我将不胜感激。",
+    "tags": [
+      "邀请信",
+      "长难句"
+    ]
+  },
+  {
+    "id": 94,
+    "content": "There is every reason to believe that, with your support, the coming festival will be a great success.",
+    "translation": "完全有理由相信，有你的支持，即将到来的节日将取得圆满成功。",
+    "tags": [
+      "邀请信",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 95,
+    "content": "It is worth noting that the number of students who take part in voluntary work has doubled in three years.",
+    "translation": "值得注意的是，参加志愿工作的学生人数三年间翻了一倍。",
+    "tags": [
+      "图表作文",
+      "主语从句"
+    ]
+  },
+  {
+    "id": 96,
+    "content": "What is shown in the chart reminds us that small daily efforts, however insignificant they seem, add up over time.",
+    "translation": "图表所示提醒我们，每天微小的努力无论看起来多么微不足道，日积月累都会见效。",
+    "tags": [
+      "图表作文",
+      "主语从句"
+    ]
+  },
+  {
+    "id": 97,
+    "content": "No matter how busy we are, we should set aside some time to read, for reading is what shapes our thinking.",
+    "translation": "无论多忙，我们都该留出时间阅读，因为阅读塑造我们的思维。",
+    "tags": [
+      "建议信",
+      "让步状语从句"
+    ]
+  },
+  {
+    "id": 98,
+    "content": "So valuable is the experience that I would recommend it to anyone who longs to broaden his horizons.",
+    "translation": "这段经历如此宝贵，我愿意把它推荐给任何渴望开阔视野的人。",
+    "tags": [
+      "感悟",
+      "倒装"
+    ]
+  },
+  {
+    "id": 99,
+    "content": "Judging from the feedback we have received, the lecture was far more popular than we had expected.",
+    "translation": "从我们收到的反馈判断，这场讲座远比我们预想的受欢迎。",
+    "tags": [
+      "活动介绍",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 100,
+    "content": "Never before have I been so moved by a simple gesture, and never will I forget it.",
+    "translation": "我从未被一个简单的举动如此打动，也永远不会忘记。",
+    "tags": [
+      "倒装",
+      "感悟"
+    ]
+  },
+  {
+    "id": 101,
+    "content": "Our school is going to hold a lecture on how to improve English writing skills, which will be given by an experienced foreign teacher.",
+    "translation": "我们学校将举办一场关于如何提高英语写作技巧的讲座，由一位经验丰富的外教主讲。",
+    "tags": [
+      "通知",
+      "定语从句"
+    ]
+  },
+  {
+    "id": 102,
+    "content": "The lecture will last from two to four in the afternoon in the school library, and everyone who is interested is welcome to attend.",
+    "translation": "讲座将于下午两点到四点在校园图书馆举行，欢迎所有感兴趣的人参加。",
+    "tags": [
+      "通知",
+      "长难句"
+    ]
+  },
+  {
+    "id": 103,
+    "content": "There is no denying that reading widely contributes greatly to the improvement of our writing ability.",
+    "translation": "不可否认，广泛阅读对提高我们的写作能力大有帮助。",
+    "tags": [
+      "建议信",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 104,
+    "content": "It is strongly recommended that every student should take an active part in the coming activity.",
+    "translation": "强烈建议每位同学都积极参加即将到来的活动。",
+    "tags": [
+      "建议信",
+      "虚拟语气"
+    ]
+  }
+]

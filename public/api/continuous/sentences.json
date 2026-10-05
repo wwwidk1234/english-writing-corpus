@@ -1,0 +1,983 @@
+[
+  {
+    "id": 1,
+    "content": "My heart hammered against my ribs as I waited for the result.",
+    "translation": "等待结果时，我的心怦怦直跳。",
+    "tags": [
+      "紧张",
+      "身体反应"
+    ]
+  },
+  {
+    "id": 2,
+    "content": "A wave of relief washed over me the moment I heard the good news.",
+    "translation": "听到好消息的那一刻，一阵如释重负的感觉涌上心头。",
+    "tags": [
+      "如释重负",
+      "情绪"
+    ]
+  },
+  {
+    "id": 3,
+    "content": "Tears welled up in my eyes and I could hardly say a word.",
+    "translation": "泪水涌上我的眼眶，我几乎说不出话来。",
+    "tags": [
+      "激动",
+      "情绪"
+    ]
+  },
+  {
+    "id": 4,
+    "content": "A broad smile spread across her face when she saw the little puppy.",
+    "translation": "看到那只小狗时，她脸上绽开了灿烂的笑容。",
+    "tags": [
+      "喜悦",
+      "神态描写"
+    ]
+  },
+  {
+    "id": 5,
+    "content": "My legs were trembling so violently that I could barely stand.",
+    "translation": "我的双腿抖得厉害，几乎站不稳。",
+    "tags": [
+      "紧张",
+      "身体反应"
+    ]
+  },
+  {
+    "id": 6,
+    "content": "I took a deep breath and tried to calm my racing heart.",
+    "translation": "我深吸一口气，努力让狂跳的心平静下来。",
+    "tags": [
+      "紧张",
+      "心理"
+    ]
+  },
+  {
+    "id": 7,
+    "content": "The sky was painted a soft orange as the sun sank behind the hills.",
+    "translation": "夕阳沉入山后，天空被染成柔和的橘色。",
+    "tags": [
+      "环境",
+      "比喻"
+    ]
+  },
+  {
+    "id": 8,
+    "content": "A gentle breeze brushed my cheek, carrying the scent of fresh grass.",
+    "translation": "一阵微风拂过我的脸颊，带来青草的清香。",
+    "tags": [
+      "环境",
+      "细节描写"
+    ]
+  },
+  {
+    "id": 9,
+    "content": "The rain drummed against the window, making the room feel even cosier.",
+    "translation": "雨点敲打着窗户，让屋里显得更加温馨。",
+    "tags": [
+      "环境",
+      "细节描写"
+    ]
+  },
+  {
+    "id": 10,
+    "content": "Silence fell over the classroom, so heavy that I could hear my own heartbeat.",
+    "translation": "教室里一片寂静，静得我能听见自己的心跳。",
+    "tags": [
+      "环境",
+      "紧张"
+    ]
+  },
+  {
+    "id": 11,
+    "content": "Without a moment's hesitation, he dashed into the burning building.",
+    "translation": "他没有丝毫犹豫，冲进了着火的建筑。",
+    "tags": [
+      "动作描写",
+      "勇敢"
+    ]
+  },
+  {
+    "id": 12,
+    "content": "Gritting my teeth, I dragged myself towards the finishing line.",
+    "translation": "我咬紧牙关，拖着身体向终点线挪去。",
+    "tags": [
+      "动作描写",
+      "坚持"
+    ]
+  },
+  {
+    "id": 13,
+    "content": "She reached out and gently patted me on the shoulder.",
+    "translation": "她伸出手，轻轻拍了拍我的肩膀。",
+    "tags": [
+      "动作描写",
+      "安慰"
+    ]
+  },
+  {
+    "id": 14,
+    "content": "He nodded firmly, his eyes shining with determination.",
+    "translation": "他坚定地点点头，眼里闪着决心的光芒。",
+    "tags": [
+      "神态描写",
+      "决心"
+    ]
+  },
+  {
+    "id": 15,
+    "content": "It suddenly dawned on me that I had been wrong all along.",
+    "translation": "我突然明白，原来我一直都错了。",
+    "tags": [
+      "固定句型",
+      "感悟"
+    ]
+  },
+  {
+    "id": 16,
+    "content": "To my surprise, the stranger turned out to be my old neighbour.",
+    "translation": "令我惊讶的是，那个陌生人竟是我以前的邻居。",
+    "tags": [
+      "转折",
+      "感悟"
+    ]
+  },
+  {
+    "id": 17,
+    "content": "Never had I felt so proud of myself as at that very moment.",
+    "translation": "我从未像那一刻那样为自己感到骄傲。",
+    "tags": [
+      "倒装",
+      "感悟"
+    ]
+  },
+  {
+    "id": 18,
+    "content": "From that day on, I came to understand the true meaning of kindness.",
+    "translation": "从那天起，我渐渐懂得了善良的真正含义。",
+    "tags": [
+      "感悟",
+      "结尾"
+    ]
+  },
+  {
+    "id": 19,
+    "content": "Had it not been for the stranger's timely warning, we might have lost our way completely.",
+    "translation": "要不是那位陌生人及时的提醒，我们很可能彻底迷了路。",
+    "tags": [
+      "虚拟语气",
+      "转折"
+    ]
+  },
+  {
+    "id": 20,
+    "content": "Should the chance come again, I would make the same choice without a moment's hesitation.",
+    "translation": "若机会再来一次，我会毫不犹豫地做出同样的选择。",
+    "tags": [
+      "虚拟语气",
+      "感悟"
+    ]
+  },
+  {
+    "id": 21,
+    "content": "Were I to start all over again, I would still choose to stand by my friends.",
+    "translation": "倘若一切重来，我仍会选择站在朋友这一边。",
+    "tags": [
+      "虚拟语气",
+      "友情"
+    ]
+  },
+  {
+    "id": 22,
+    "content": "No sooner had the thought crossed my mind than a familiar voice sounded behind me.",
+    "translation": "这个念头刚闪过脑海，身后就传来一个熟悉的声音。",
+    "tags": [
+      "倒装",
+      "紧张"
+    ]
+  },
+  {
+    "id": 23,
+    "content": "Not until the rain had stopped did we dare to step out of the shelter.",
+    "translation": "直到雨停了，我们才敢走出避雨处。",
+    "tags": [
+      "倒装",
+      "环境"
+    ]
+  },
+  {
+    "id": 24,
+    "content": "Seldom had the old town seen such a lively evening.",
+    "translation": "这座老城很少见过如此热闹的夜晚。",
+    "tags": [
+      "倒装",
+      "环境"
+    ]
+  },
+  {
+    "id": 25,
+    "content": "Rarely does one meet a person who gives without expecting anything in return.",
+    "translation": "一个人很少能遇到不求回报地付出的人。",
+    "tags": [
+      "倒装",
+      "感悟"
+    ]
+  },
+  {
+    "id": 26,
+    "content": "Little did I know that this small act of kindness would change my whole summer.",
+    "translation": "我几乎不知道，这个小小的善举会改变我的整个夏天。",
+    "tags": [
+      "倒装",
+      "感悟"
+    ]
+  },
+  {
+    "id": 27,
+    "content": "So absorbed was she in her book that she did not notice me standing at the door.",
+    "translation": "她如此专注于书本，以至于没有注意到我站在门口。",
+    "tags": [
+      "倒装",
+      "专注"
+    ]
+  },
+  {
+    "id": 28,
+    "content": "Such was the noise that we had to shout to make ourselves heard.",
+    "translation": "噪音如此之大，我们不得不大声喊叫才能让别人听见。",
+    "tags": [
+      "倒装",
+      "环境"
+    ]
+  },
+  {
+    "id": 29,
+    "content": "Hardly had I settled into my seat when the train began to move.",
+    "translation": "我刚坐稳，火车就开动了。",
+    "tags": [
+      "倒装",
+      "动作描写"
+    ]
+  },
+  {
+    "id": 30,
+    "content": "Not once did he complain, though the work was far harder than he had expected.",
+    "translation": "尽管工作远比他预想的艰难，他一次也没有抱怨。",
+    "tags": [
+      "倒装",
+      "坚持"
+    ]
+  },
+  {
+    "id": 31,
+    "content": "Nowhere could I find a single trace of the little dog I had lost.",
+    "translation": "我到处都找不到我丢失的那只小狗的一丝踪迹。",
+    "tags": [
+      "倒装",
+      "失落"
+    ]
+  },
+  {
+    "id": 32,
+    "content": "However exhausted I was, I refused to stop until we reached the top of the hill.",
+    "translation": "无论多么疲惫，我都拒绝停下，直到我们登上山顶。",
+    "tags": [
+      "让步状语从句",
+      "坚持"
+    ]
+  },
+  {
+    "id": 33,
+    "content": "Exhausted as we were, none of us was willing to give up halfway.",
+    "translation": "虽然我们筋疲力尽，但没人愿意半途放弃。",
+    "tags": [
+      "让步状语从句",
+      "坚持"
+    ]
+  },
+  {
+    "id": 34,
+    "content": "Absorbed as he was in the game, he still noticed the old man shivering in the corner.",
+    "translation": "尽管他专注于比赛，还是注意到角落里发抖的老人。",
+    "tags": [
+      "让步状语从句",
+      "转折"
+    ]
+  },
+  {
+    "id": 35,
+    "content": "It was in that small, poorly-lit room that I finally understood what true courage meant.",
+    "translation": "正是在那间昏暗的小屋里，我终于明白了真正的勇气意味着什么。",
+    "tags": [
+      "强调句",
+      "感悟"
+    ]
+  },
+  {
+    "id": 36,
+    "content": "It was not until the lights went out that I realized how long we had been sitting there in silence.",
+    "translation": "直到灯灭了，我才意识到我们在那里默默坐了多久。",
+    "tags": [
+      "强调句",
+      "环境"
+    ]
+  },
+  {
+    "id": 37,
+    "content": "It suddenly dawned on me that the person I had been looking for was standing right beside me.",
+    "translation": "我突然明白，我一直在寻找的人就站在我身边。",
+    "tags": [
+      "固定句型",
+      "感悟"
+    ]
+  },
+  {
+    "id": 38,
+    "content": "What struck me most deeply was not the size of the gift but the thought behind it.",
+    "translation": "最打动我的不是礼物的贵重，而是它背后的心意。",
+    "tags": [
+      "主语从句",
+      "感悟"
+    ]
+  },
+  {
+    "id": 39,
+    "content": "What followed was a silence so complete that I could hear the ticking of the clock.",
+    "translation": "随之而来的是一片彻底的寂静，我甚至能听见钟的滴答声。",
+    "tags": [
+      "主语从句",
+      "环境"
+    ]
+  },
+  {
+    "id": 40,
+    "content": "Whether out of fear or out of pride, he kept silent and stared at the floor.",
+    "translation": "不知是出于恐惧还是骄傲，他沉默着，盯着地板。",
+    "tags": [
+      "主语从句",
+      "心理"
+    ]
+  },
+  {
+    "id": 41,
+    "content": "With a mixture of relief and disbelief, I watched the car disappear round the bend.",
+    "translation": "带着如释重负又难以置信的心情，我看着那辆车消失在转弯处。",
+    "tags": [
+      "心理",
+      "情绪"
+    ]
+  },
+  {
+    "id": 42,
+    "content": "With tears streaming down her face, she threw her arms around her mother.",
+    "translation": "泪水顺着她的脸颊流下，她扑进了母亲的怀里。",
+    "tags": [
+      "非谓语",
+      "情绪"
+    ]
+  },
+  {
+    "id": 43,
+    "content": "Tears rolled down her cheeks, each one seeming to carry a word she could not say.",
+    "translation": "泪水从她脸颊滚落，每一滴仿佛都承载着她说不出口的话。",
+    "tags": [
+      "非谓语",
+      "情绪"
+    ]
+  },
+  {
+    "id": 44,
+    "content": "Having waited for hours in the freezing wind, we were about to give up when a light appeared.",
+    "translation": "在刺骨的寒风中苦等数小时后，我们正要放弃时，一盏灯出现了。",
+    "tags": [
+      "非谓语",
+      "转折"
+    ]
+  },
+  {
+    "id": 45,
+    "content": "Instead of turning away, he knelt down and gently picked up the tiny, shivering bird.",
+    "translation": "他没有转身离开，而是蹲下来轻轻捧起那只瑟瑟发抖的小鸟。",
+    "tags": [
+      "非谓语",
+      "动作描写"
+    ]
+  },
+  {
+    "id": 46,
+    "content": "Deep in the forest, where sunlight could hardly reach, we found the little wooden hut.",
+    "translation": "在阳光几乎照不到的森林深处，我们找到了那座小木屋。",
+    "tags": [
+      "定语从句",
+      "环境"
+    ]
+  },
+  {
+    "id": 47,
+    "content": "There was a moment of stillness, during which every face in the crowd turned towards the door.",
+    "translation": "有一瞬间的静止，在那期间人群中的每一张脸都转向了门口。",
+    "tags": [
+      "定语从句",
+      "紧张"
+    ]
+  },
+  {
+    "id": 48,
+    "content": "As darkness swallowed the last trace of daylight, a single lamp flickered to life in the window.",
+    "translation": "当黑暗吞没最后一线天光，一扇窗里亮起了一盏摇曳的灯。",
+    "tags": [
+      "时间状语从句",
+      "环境"
+    ]
+  },
+  {
+    "id": 49,
+    "content": "As the last notes of the song faded away, a silence fell over the hall, deeper than before.",
+    "translation": "当歌声最后的音符消散，大厅里落下一片比先前更深的寂静。",
+    "tags": [
+      "时间状语从句",
+      "环境"
+    ]
+  },
+  {
+    "id": 50,
+    "content": "The moment the door swung open, everyone held their breath, waiting for the good news to be announced.",
+    "translation": "门被推开的那一刻，每个人都屏住呼吸，等待好消息宣布。",
+    "tags": [
+      "时间状语从句",
+      "紧张"
+    ]
+  },
+  {
+    "id": 51,
+    "content": "Long after the crowd had gone home, the old man stood in the empty square, staring at nothing.",
+    "translation": "人群回家很久之后，老人仍站在空荡的广场上，什么也没看。",
+    "tags": [
+      "时间状语从句",
+      "失落"
+    ]
+  },
+  {
+    "id": 52,
+    "content": "Every time I recall that night, a warm feeling rises from the bottom of my heart.",
+    "translation": "每当我回想起那一夜，一股暖意便从心底升起。",
+    "tags": [
+      "时间状语从句",
+      "感悟"
+    ]
+  },
+  {
+    "id": 53,
+    "content": "A cold wind swept across the deserted street, making the wooden windows rattle in their frames.",
+    "translation": "一阵冷风扫过空寂的街道，吹得木窗在窗框里咯咯作响。",
+    "tags": [
+      "环境",
+      "动作描写"
+    ]
+  },
+  {
+    "id": 54,
+    "content": "In the distance, the faint sound of a bell drifted through the fog, reminding me of home.",
+    "translation": "远处，微弱的钟声穿过雾传来，让我想起了家。",
+    "tags": [
+      "环境",
+      "心理"
+    ]
+  },
+  {
+    "id": 55,
+    "content": "Far away, thunder rolled across the dark sky, as if the world itself were holding its breath.",
+    "translation": "远处，雷声滚过漆黑的天空，仿佛整个世界都屏住了呼吸。",
+    "tags": [
+      "环境",
+      "紧张"
+    ]
+  },
+  {
+    "id": 56,
+    "content": "Snowflakes whirled in the cold wind, and the whole village was soon wrapped in a thick white blanket.",
+    "translation": "雪花在寒风中打着旋，整个村庄很快被裹进厚厚的白色毯子里。",
+    "tags": [
+      "环境",
+      "比喻"
+    ]
+  },
+  {
+    "id": 57,
+    "content": "All at once, the meaning of his words hit me like a wave.",
+    "translation": "猛然间，他话里的含义像海浪一样击中了我。",
+    "tags": [
+      "比喻",
+      "感悟"
+    ]
+  },
+  {
+    "id": 58,
+    "content": "I could feel my heart pounding so loudly that I was sure everyone around me could hear it.",
+    "translation": "我能感到自己的心跳得那么响，我确信周围的每个人都听得见。",
+    "tags": [
+      "紧张",
+      "身体反应"
+    ]
+  },
+  {
+    "id": 59,
+    "content": "My knees went weak and my mouth turned as dry as cotton.",
+    "translation": "我的膝盖发软，嘴巴干得像棉花。",
+    "tags": [
+      "紧张",
+      "身体反应"
+    ]
+  },
+  {
+    "id": 60,
+    "content": "A chill ran down my spine, and for a second I could not move a muscle.",
+    "translation": "一股寒意顺着脊背而下，有一瞬间我全身动弹不得。",
+    "tags": [
+      "紧张",
+      "身体反应"
+    ]
+  },
+  {
+    "id": 61,
+    "content": "A sudden lump rose in my throat, and I could not finish the sentence.",
+    "translation": "我喉咙突然哽住，说不完那句话。",
+    "tags": [
+      "激动",
+      "情绪"
+    ]
+  },
+  {
+    "id": 62,
+    "content": "A mixture of excitement and anxiety surged inside me, leaving me unable to utter a single word.",
+    "translation": "兴奋与焦虑交织着涌上心头，让我一个字也说不出来。",
+    "tags": [
+      "激动",
+      "情绪"
+    ]
+  },
+  {
+    "id": 63,
+    "content": "His words hit me like a bucket of cold water.",
+    "translation": "他的话像一盆冷水浇在我身上。",
+    "tags": [
+      "失望",
+      "心理"
+    ]
+  },
+  {
+    "id": 64,
+    "content": "Although my clothes were soaked through, a quiet warmth was growing in the depth of my heart.",
+    "translation": "尽管我的衣服湿透了，心底却渐渐升起一股安静的暖意。",
+    "tags": [
+      "转折",
+      "心理"
+    ]
+  },
+  {
+    "id": 65,
+    "content": "Far from being discouraged by the failure, he set to work with renewed determination.",
+    "translation": "他丝毫没有因失败而气馁，反而以新的决心投入工作。",
+    "tags": [
+      "转折",
+      "坚持"
+    ]
+  },
+  {
+    "id": 66,
+    "content": "We exchanged a smile that said more than any words could have done.",
+    "translation": "我们交换了一个微笑，那比任何言语都表达得更多。",
+    "tags": [
+      "友情",
+      "感悟"
+    ]
+  },
+  {
+    "id": 67,
+    "content": "We exchanged a knowing glance and burst into laughter.",
+    "translation": "我们交换了一个会意的眼神，然后大笑起来。",
+    "tags": [
+      "友情",
+      "动作描写"
+    ]
+  },
+  {
+    "id": 68,
+    "content": "The golden sunlight filtered through the leaves, casting dancing shadows on the path ahead of us.",
+    "translation": "金色的阳光透过树叶洒下，在我们前方的路上投下跳动的影子。",
+    "tags": [
+      "环境",
+      "比喻"
+    ]
+  },
+  {
+    "id": 69,
+    "content": "The old wooden door creaked open, revealing a dim room that smelt of dust and damp paper.",
+    "translation": "旧木门嘎吱一声开了，露出一间散发着灰尘和潮纸味的昏暗屋子。",
+    "tags": [
+      "环境",
+      "细节描写"
+    ]
+  },
+  {
+    "id": 70,
+    "content": "Whatever happened next, I knew I would never forget that summer.",
+    "translation": "无论接下来发生什么，我知道我永远不会忘记那个夏天。",
+    "tags": [
+      "感悟",
+      "结尾"
+    ]
+  },
+  {
+    "id": 71,
+    "content": "With my heart in my throat, I stepped onto the stage.",
+    "translation": "我提心吊胆地走上舞台。",
+    "tags": [
+      "紧张",
+      "动作描写"
+    ]
+  },
+  {
+    "id": 72,
+    "content": "It was then that I realized how meaningless the word give up is.",
+    "translation": "就在那时，我意识到“放弃”这个词是多么没有意义。",
+    "tags": [
+      "强调句",
+      "结尾"
+    ]
+  },
+  {
+    "id": 73,
+    "content": "Nothing could have prepared me for the scene that met my eyes.",
+    "translation": "没有任何准备能让我面对眼前的景象。",
+    "tags": [
+      "固定句型",
+      "环境"
+    ]
+  },
+  {
+    "id": 74,
+    "content": "The little boy clutched his mother's sleeve, his eyes wide with wonder.",
+    "translation": "小男孩紧紧抓着母亲的袖子，眼睛睁得大大的，满是惊奇。",
+    "tags": [
+      "细节描写",
+      "动作描写"
+    ]
+  },
+  {
+    "id": 75,
+    "content": "No sooner had the first ray of sunlight touched the roof of the old house than the whole village began to stir.",
+    "translation": "第一缕阳光刚触到老屋的屋顶，整个村庄便苏醒过来。",
+    "tags": [
+      "倒装",
+      "环境"
+    ]
+  },
+  {
+    "id": 76,
+    "content": "Not until the train had disappeared into the distance did she allow the tears to fall.",
+    "translation": "直到火车消失在远方，她才任由泪水落下。",
+    "tags": [
+      "倒装",
+      "离别"
+    ]
+  },
+  {
+    "id": 77,
+    "content": "Rarely had the small town witnessed a scene so moving that even the passers-by stopped to watch.",
+    "translation": "这个小镇很少见到如此动人的场面，连路人都停下来观看。",
+    "tags": [
+      "倒装",
+      "长难句"
+    ]
+  },
+  {
+    "id": 78,
+    "content": "Little did the boy suspect that the old man he had just helped was the very person he had been looking for.",
+    "translation": "男孩丝毫没有料到，他刚刚帮助的那位老人正是他一直在寻找的人。",
+    "tags": [
+      "倒装",
+      "长难句"
+    ]
+  },
+  {
+    "id": 79,
+    "content": "Whatever difficulties lay ahead, she was determined to carry the promise through to the end.",
+    "translation": "无论前方有什么困难，她都决心把这个承诺坚持到底。",
+    "tags": [
+      "让步状语从句",
+      "决心"
+    ]
+  },
+  {
+    "id": 80,
+    "content": "However hard I tried to hold back my tears, they rolled down my cheeks the moment I saw her.",
+    "translation": "无论我怎么努力忍住眼泪，见到她的那一刻它们还是滚落下来。",
+    "tags": [
+      "让步状语从句",
+      "激动"
+    ]
+  },
+  {
+    "id": 81,
+    "content": "Absorbed in the music, the young man did not notice that the rain had soaked him through.",
+    "translation": "年轻人沉浸在音乐中，竟没有察觉雨已把他淋透。",
+    "tags": [
+      "非谓语",
+      "专注"
+    ]
+  },
+  {
+    "id": 82,
+    "content": "As the fire spread from roof to roof, the villagers rushed out with buckets, shouting to one another.",
+    "translation": "火从一座屋顶蔓延到另一座，村民们提着水桶冲出来，互相呼喊着。",
+    "tags": [
+      "时间状语从句",
+      "动作描写"
+    ]
+  },
+  {
+    "id": 83,
+    "content": "With the wind howling through the broken windows, we sat in the dark, waiting for the storm to pass.",
+    "translation": "狂风从破窗中呼啸而过，我们坐在黑暗里，等待暴风雨过去。",
+    "tags": [
+      "非谓语",
+      "环境"
+    ]
+  },
+  {
+    "id": 84,
+    "content": "Having walked for what felt like hours, we finally saw the lights of the village twinkling in the distance.",
+    "translation": "感觉走了好几个小时后，我们终于看到远处的村庄灯火闪烁。",
+    "tags": [
+      "非谓语",
+      "转折"
+    ]
+  },
+  {
+    "id": 85,
+    "content": "A strange feeling crept over me as I stood there, unable to move or to speak.",
+    "translation": "我站在那里，既不能动也不能说话，一种奇怪的感觉爬上心头。",
+    "tags": [
+      "心理",
+      "紧张"
+    ]
+  },
+  {
+    "id": 86,
+    "content": "Before I could say a word, he had turned around and disappeared into the crowd.",
+    "translation": "我还没来得及说一句话，他就转身消失在人群中。",
+    "tags": [
+      "时间状语从句",
+      "失落"
+    ]
+  },
+  {
+    "id": 87,
+    "content": "It was not the pain in my leg that made me cry, but the thought of letting my teammates down.",
+    "translation": "让我哭的不是腿上的疼痛，而是想到会让队友失望。",
+    "tags": [
+      "强调句",
+      "心理"
+    ]
+  },
+  {
+    "id": 88,
+    "content": "There was something in his voice that made me realize he had been holding back the truth all along.",
+    "translation": "他的声音里有些东西让我意识到，他一直隐瞒着真相。",
+    "tags": [
+      "定语从句",
+      "转折"
+    ]
+  },
+  {
+    "id": 89,
+    "content": "The boy, whose shoes were worn out and whose clothes were too thin for the winter, never once complained.",
+    "translation": "那个男孩鞋子破旧、衣服单薄得不足以过冬，却一次也没有抱怨。",
+    "tags": [
+      "定语从句",
+      "坚持"
+    ]
+  },
+  {
+    "id": 90,
+    "content": "Those who had once laughed at her now stood in silence, ashamed of what they had said.",
+    "translation": "那些曾经嘲笑她的人如今默默站着，为自己的话感到羞愧。",
+    "tags": [
+      "定语从句",
+      "感悟"
+    ]
+  },
+  {
+    "id": 91,
+    "content": "Never had I imagined that a single sentence from a stranger could change the way I saw myself.",
+    "translation": "我从未想到，陌生人的一句话竟能改变我看待自己的方式。",
+    "tags": [
+      "倒装",
+      "感悟"
+    ]
+  },
+  {
+    "id": 92,
+    "content": "How I wished that I could turn back the clock and undo what I had said in anger.",
+    "translation": "我多么希望自己能倒转时钟，收回我在愤怒中说出的话。",
+    "tags": [
+      "虚拟语气",
+      "懊悔"
+    ]
+  },
+  {
+    "id": 93,
+    "content": "Had I listened to her advice, I would not be standing here regretting every word I said.",
+    "translation": "要是我当时听了她的劝告，就不会站在这里为说的每句话后悔。",
+    "tags": [
+      "虚拟语气",
+      "懊悔"
+    ]
+  },
+  {
+    "id": 94,
+    "content": "Were it not for the courage I found that night, I would still be afraid of the dark.",
+    "translation": "要不是那一夜我找到的勇气，我至今仍会怕黑。",
+    "tags": [
+      "虚拟语气",
+      "感悟"
+    ]
+  },
+  {
+    "id": 95,
+    "content": "Such was the cold that our breath hung in the air like white smoke.",
+    "translation": "天气冷得我们的呼吸像白烟一样悬在空中。",
+    "tags": [
+      "倒装",
+      "环境"
+    ]
+  },
+  {
+    "id": 96,
+    "content": "Nothing could have prepared me for the sight that greeted me when I opened the door.",
+    "translation": "打开门时映入眼帘的景象，让我毫无准备。",
+    "tags": [
+      "固定句型",
+      "转折"
+    ]
+  },
+  {
+    "id": 97,
+    "content": "It was in the middle of that sleepless night that I made up my mind to start again.",
+    "translation": "正是在那个无眠之夜的深夜，我下定决心重新开始。",
+    "tags": [
+      "强调句",
+      "决心"
+    ]
+  },
+  {
+    "id": 98,
+    "content": "Hardly had the applause died down when she was surrounded by classmates eager to congratulate her.",
+    "translation": "掌声刚停，她就被急于祝贺她的同学们围住了。",
+    "tags": [
+      "倒装",
+      "喜悦"
+    ]
+  },
+  {
+    "id": 99,
+    "content": "So loudly did my heart beat that I was afraid the person beside me might hear it.",
+    "translation": "我的心跳得那么响，我担心身旁的人会听见。",
+    "tags": [
+      "倒装",
+      "紧张"
+    ]
+  },
+  {
+    "id": 100,
+    "content": "Far from being frightened, the little girl stepped forward and offered the stranger her hand.",
+    "translation": "小女孩非但没有害怕，反而走上前向陌生人伸出了手。",
+    "tags": [
+      "转折",
+      "勇敢"
+    ]
+  },
+  {
+    "id": 101,
+    "content": "By the time the sun rose, the flood had already begun to recede, leaving mud everywhere.",
+    "translation": "到太阳升起时，洪水已开始退去，到处留下泥泞。",
+    "tags": [
+      "时间状语从句",
+      "环境"
+    ]
+  },
+  {
+    "id": 102,
+    "content": "Long before the concert ended, she knew that this was the moment she would remember for the rest of her life.",
+    "translation": "音乐会结束前很久，她就知道这是她将铭记一生的时刻。",
+    "tags": [
+      "时间状语从句",
+      "感悟"
+    ]
+  },
+  {
+    "id": 103,
+    "content": "Whether we succeed or not, the effort we have made will never be wasted.",
+    "translation": "无论成功与否，我们付出的努力绝不会白费。",
+    "tags": [
+      "让步状语从句",
+      "感悟"
+    ]
+  },
+  {
+    "id": 104,
+    "content": "All of a sudden, the door flew open and in rushed a boy, breathless and covered with mud.",
+    "translation": "突然，门猛地开了，一个气喘吁吁、浑身是泥的男孩冲了进来。",
+    "tags": [
+      "倒装",
+      "动作描写"
+    ]
+  },
+  {
+    "id": 105,
+    "content": "Trembling with excitement, she unfolded the letter, afraid that the words might vanish if she read them too fast.",
+    "translation": "她激动得发抖，展开那封信，生怕读得太快字迹就会消失。",
+    "tags": [
+      "非谓语",
+      "激动"
+    ]
+  },
+  {
+    "id": 106,
+    "content": "Deep in the night, when everything was still, I could hear the river whispering to the stones.",
+    "translation": "夜深人静时，我能听见河水对石头低语。",
+    "tags": [
+      "环境",
+      "比喻"
+    ]
+  },
+  {
+    "id": 107,
+    "content": "There, among the ruins, stood a single sunflower, turning its face to the morning sun.",
+    "translation": "在那里，废墟之中，立着一株向日葵，把脸转向朝阳。",
+    "tags": [
+      "倒装",
+      "环境"
+    ]
+  },
+  {
+    "id": 108,
+    "content": "Now that the hardest part was over, we looked at each other and burst out laughing.",
+    "translation": "既然最艰难的部分已经过去，我们相视大笑起来。",
+    "tags": [
+      "时间状语从句",
+      "喜悦"
+    ]
+  },
+  {
+    "id": 109,
+    "content": "It was not until the lights went out that I realised how long we had been sitting there in silence.",
+    "translation": "直到灯灭了，我才意识到我们在那里默默坐了多久。",
+    "tags": [
+      "强调句",
+      "环境"
+    ]
+  }
+]

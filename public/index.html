@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>英语写作语料库</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-practical">
+  <div class="page">
+    <header class="site-header">
+      <h1 class="site-title">英语写作语料库</h1>
+      <p class="site-subtitle">高中英语 · 应用文 与 读后续写 素材积累</p>
+      <nav class="tabs" id="tabs" role="tablist" aria-label="分区切换">
+        <button class="tab" type="button" role="tab" data-module="practical">应用文</button>
+        <button class="tab" type="button" role="tab" data-module="continuous">读后续写</button>
+      </nav>
+    </header>
+
+    <div class="alert" id="alert" role="alert" hidden></div>
+
+    <section class="toolbar" aria-label="搜索与筛选">
+      <div class="field field-search">
+        <label class="sr-only" for="search-input">搜索</label>
+        <input id="search-input" type="search" placeholder="搜索原文或译文…" autocomplete="off">
+      </div>
+      <div class="field">
+        <label class="sr-only" for="scope-select">搜索范围</label>
+        <select id="scope-select" title="搜索范围">
+          <option value="all">全部</option>
+          <option value="content">仅原文</option>
+          <option value="translation">仅译文</option>
+        </select>
+      </div>
+      <div class="field">
+        <label class="sr-only" for="tag-select">标签筛选</label>
+        <select id="tag-select" title="标签筛选">
+          <option value="">全部标签</option>
+        </select>
+      </div>
+      <div class="field field-actions">
+        <button class="btn btn-primary" type="button" id="new-btn" hidden>+ 新增</button>
+      </div>
+    </section>
+
+    <section class="meta-bar">
+      <span id="result-meta">加载中…</span>
+      <span class="mode-badge" id="mode-badge"></span>
+    </section>
+
+    <main id="list" class="list" aria-live="polite"></main>
+
+    <nav class="pager" id="pager" aria-label="分页">
+      <button class="btn" type="button" id="prev-btn">上一页</button>
+      <span class="pager-info" id="pager-info">第 1 / 1 页</span>
+      <button class="btn" type="button" id="next-btn">下一页</button>
+    </nav>
+  </div>
+
+  <!-- 新增 / 编辑弹窗 -->
+  <div class="modal-backdrop" id="modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <h2 class="modal-title" id="modal-title">新增语料</h2>
+      <form id="sentence-form" novalidate>
+        <div class="form-row">
+          <label for="form-content">英文原文 <span class="required">*</span></label>
+          <textarea id="form-content" rows="3" placeholder="My heart hammered against my ribs." required></textarea>
+        </div>
+        <div class="form-row">
+          <label for="form-translation">中文译文</label>
+          <textarea id="form-translation" rows="2" placeholder="我的心怦怦直跳。"></textarea>
+        </div>
+        <div class="form-row">
+          <label for="form-tags">标签</label>
+          <input id="form-tags" type="text" placeholder="紧张，动作描写（中英文逗号分隔）">
+        </div>
+        <p class="form-error" id="form-error" hidden></p>
+        <div class="modal-actions">
+          <button class="btn" type="button" id="cancel-btn">取消</button>
+          <button class="btn btn-primary" type="submit" id="submit-btn">保存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

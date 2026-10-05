@@ -1,0 +1,20 @@
+# 本地数据源：不部署、不上传（线上只读页面读的是 public/api 下的静态 JSON）
+data/
+raw/
+
+# 本地工具与临时产物
+tests/
+__pycache__/
+*.py[cod]
+*.tmp
+*.jsonl.tmp
+*.txt.tmp
+.shots/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
