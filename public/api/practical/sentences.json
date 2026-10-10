@@ -934,5 +934,1127 @@
       "建议信",
       "虚拟语气"
     ]
+  },
+  {
+    "id": 105,
+    "content": "A worrying phenomenon has arisen recently that more and more senior high students use phones to search for answers instead of thinking independently, which has sparked an intense online debate.",
+    "translation": "最近出现了一个令人担忧的现象：越来越多的高中生用手机搜题代替独立思考，这在网上引发了激烈争论。",
+    "tags": [
+      "观点表达",
+      "开头",
+      "长难句",
+      "定语从句",
+      "校园生活"
+    ]
+  },
+  {
+    "id": 106,
+    "content": "While some advocate using AI learning tools in senior high school, others argue that it may weaken students' ability to think independently.",
+    "translation": "有些人提倡高中生使用人工智能学习工具，而另一些人则认为这可能削弱学生独立思考的能力。",
+    "tags": [
+      "观点表达",
+      "人工智能",
+      "长难句",
+      "对比转折"
+    ]
+  },
+  {
+    "id": 107,
+    "content": "From my perspective, I firmly believe that schools should set strict rules to guide students to use smartphones properly on campus.",
+    "translation": "在我看来，我坚信学校应该制定严格规定，引导学生在校园内合理使用智能手机。",
+    "tags": [
+      "观点表达",
+      "固定句型",
+      "宾语从句",
+      "校园生活"
+    ]
+  },
+  {
+    "id": 108,
+    "content": "From my perspective, smartphones are a double-edged sword for senior high students.",
+    "translation": "在我看来，智能手机对高中生来说是一把双刃剑。",
+    "tags": [
+      "观点表达",
+      "固定句型",
+      "优势",
+      "科技体验"
+    ]
+  },
+  {
+    "id": 109,
+    "content": "The reasons can be listed as follows.",
+    "translation": "理由可以列举如下。",
+    "tags": [
+      "固定句型",
+      "开头",
+      "论证逻辑"
+    ]
+  },
+  {
+    "id": 110,
+    "content": "Admittedly, phones may take up some study time.",
+    "translation": "诚然，手机可能会占用一些学习时间。",
+    "tags": [
+      "观点表达",
+      "论证逻辑",
+      "科技体验"
+    ]
+  },
+  {
+    "id": 111,
+    "content": "However, from my perspective, they still do more good than harm to our studies.",
+    "translation": "然而，在我看来，手机对我们的学习仍然是利大于弊。",
+    "tags": [
+      "观点表达",
+      "对比转折",
+      "固定句型",
+      "科技体验"
+    ]
+  },
+  {
+    "id": 112,
+    "content": "On the one hand, online courses can offer flexible learning time.",
+    "translation": "一方面，线上课程可以提供灵活的学习时间。",
+    "tags": [
+      "观点表达",
+      "固定句型",
+      "科技体验",
+      "优势"
+    ]
+  },
+  {
+    "id": 113,
+    "content": "On the other hand, they may reduce face-to-face communication between students and teachers.",
+    "translation": "另一方面，线上课程可能减少学生与老师面对面的交流。",
+    "tags": [
+      "观点表达",
+      "固定句型",
+      "对比转折",
+      "科技体验"
+    ]
+  },
+  {
+    "id": 114,
+    "content": "From my perspective, senior high students should take part in club activities.",
+    "translation": "在我看来，高中生应该参加社团活动。",
+    "tags": [
+      "观点表达",
+      "固定句型",
+      "活动介绍",
+      "校园生活"
+    ]
+  },
+  {
+    "id": 115,
+    "content": "To begin with, it enriches our after-school life and helps us relax.",
+    "translation": "首先，这能丰富我们的课余生活，帮助我们放松身心。",
+    "tags": [
+      "非谓语",
+      "活动介绍",
+      "校园生活",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 116,
+    "content": "In addition, it improves our communication ability by working with others.",
+    "translation": "此外，通过与他人合作，这能提高我们的沟通能力。",
+    "tags": [
+      "非谓语",
+      "活动介绍",
+      "校园生活",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 117,
+    "content": "Most importantly, it gives us a chance to make more friends who share the same interests.",
+    "translation": "最重要的是，这给了我们结识更多志同道合朋友的机会。",
+    "tags": [
+      "定语从句",
+      "活动介绍",
+      "校园生活",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 118,
+    "content": "All things considered, while I am firmly convinced that taking part in club activities benefits students’ growth, it is crucial to strike a balance between activities and studies.",
+    "translation": "综合考虑，虽然我坚信参加社团活动有益于学生成长，但平衡活动与学业至关重要。",
+    "tags": [
+      "结尾",
+      "让步状语从句",
+      "非谓语",
+      "长难句",
+      "校园生活"
+    ]
+  },
+  {
+    "id": 119,
+    "content": "Taking all factors into consideration, it can be concluded that smartphones are neither good nor bad in themselves; what really matters is how we use them.",
+    "translation": "综合考虑所有因素，可以得出结论：智能手机本身无所谓好坏，真正重要的是我们如何使用它们。",
+    "tags": [
+      "结尾",
+      "固定句型",
+      "主语从句",
+      "宾语从句",
+      "长难句",
+      "科技体验"
+    ]
+  },
+  {
+    "id": 120,
+    "content": "Some believe that ________, while others advocate ________.",
+    "translation": "一些人认为________，而另一些人则主张________。",
+    "tags": [
+      "固定句型",
+      "观点表达",
+      "论证逻辑",
+      "对比转折"
+    ]
+  },
+  {
+    "id": 121,
+    "content": "From my perspective, ________________. The reasons can be listed as follows.",
+    "translation": "在我看来，________________。理由如下。",
+    "tags": [
+      "固定句型",
+      "观点表达",
+      "开头",
+      "论证逻辑"
+    ]
+  },
+  {
+    "id": 122,
+    "content": "Taking all factors into consideration, I am convinced that __________.",
+    "translation": "综合考虑所有因素，我确信__________。",
+    "tags": [
+      "固定句型",
+      "结尾",
+      "观点表达"
+    ]
+  },
+  {
+    "id": 123,
+    "content": "What really matters is ___________.",
+    "translation": "真正重要的是___________。",
+    "tags": [
+      "主语从句",
+      "固定句型",
+      "结尾",
+      "观点表达"
+    ]
+  },
+  {
+    "id": 124,
+    "content": "Only by ________, can we ___________.",
+    "translation": "只有通过__________，我们才能___________。",
+    "tags": [
+      "倒装",
+      "固定句型",
+      "结尾",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 125,
+    "content": "Furthermore, _________, thereby doing ____________.",
+    "translation": "此外，___________，从而做到____________。",
+    "tags": [
+      "非谓语",
+      "固定句型",
+      "论证逻辑",
+      "长难句"
+    ]
+  },
+  {
+    "id": 126,
+    "content": "Nevertheless, __________.",
+    "translation": "尽管如此，__________。",
+    "tags": [
+      "对比转折",
+      "固定句型",
+      "论证逻辑"
+    ]
+  },
+  {
+    "id": 127,
+    "content": "broaden our horizons",
+    "translation": "拓宽我们的视野",
+    "tags": [
+      "人工智能",
+      "科技创新",
+      "优势"
+    ]
+  },
+  {
+    "id": 128,
+    "content": "provide instant access to information",
+    "translation": "即时获取信息",
+    "tags": [
+      "人工智能",
+      "科技创新",
+      "优势"
+    ]
+  },
+  {
+    "id": 129,
+    "content": "offer personalized learning for students in remote areas",
+    "translation": "为偏远地区的学生提供个性化学习支持",
+    "tags": [
+      "人工智能",
+      "科技创新",
+      "优势"
+    ]
+  },
+  {
+    "id": 130,
+    "content": "reduce risks in dangerous jobs",
+    "translation": "降低危险工作中的风险",
+    "tags": [
+      "科技创新",
+      "优势"
+    ]
+  },
+  {
+    "id": 131,
+    "content": "improve flood or earthquake early-warning system",
+    "translation": "改进洪水或地震预警系统",
+    "tags": [
+      "科技创新",
+      "优势"
+    ]
+  },
+  {
+    "id": 132,
+    "content": "enhance efficiency and save time",
+    "translation": "提高效率、节省时间",
+    "tags": [
+      "人工智能",
+      "优势"
+    ]
+  },
+  {
+    "id": 133,
+    "content": "free people from repetitive and tedious tasks",
+    "translation": "将人们从重复而乏味的工作中解放出来",
+    "tags": [
+      "人工智能",
+      "优势",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 134,
+    "content": "allow us to focus on creativity, empathy and complex problem-solving",
+    "translation": "使我们能够专注于创造力、共情能力和复杂问题的解决",
+    "tags": [
+      "人工智能",
+      "优势"
+    ]
+  },
+  {
+    "id": 135,
+    "content": "with a speed no human can match",
+    "translation": "以人类无法匹敌的速度",
+    "tags": [
+      "人工智能",
+      "科技创新"
+    ]
+  },
+  {
+    "id": 136,
+    "content": "Instant answers reduce patience.",
+    "translation": "即时得到答案会削弱人们的耐心。",
+    "tags": [
+      "人工智能",
+      "观点表达",
+      "弊端"
+    ]
+  },
+  {
+    "id": 137,
+    "content": "AI may encourage intellectual laziness, making thinking “optional”.",
+    "translation": "人工智能可能助长思维惰性，让思考变得“可有可无”。",
+    "tags": [
+      "人工智能",
+      "非谓语",
+      "长难句",
+      "弊端"
+    ]
+  },
+  {
+    "id": 138,
+    "content": "AI may weaken memory, writing and problem-solving skills.",
+    "translation": "人工智能可能削弱记忆、写作和解决问题的能力。",
+    "tags": [
+      "人工智能",
+      "弊端"
+    ]
+  },
+  {
+    "id": 139,
+    "content": "Keep AI at arm’s length.",
+    "translation": "与人工智能保持适当距离。",
+    "tags": [
+      "人工智能",
+      "建议",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 140,
+    "content": "Keep humans in the loop.",
+    "translation": "让人类始终参与并掌握控制权。",
+    "tags": [
+      "人工智能",
+      "建议",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 141,
+    "content": "generate false information",
+    "translation": "生成错误信息",
+    "tags": [
+      "人工智能",
+      "弊端",
+      "科技创新"
+    ]
+  },
+  {
+    "id": 142,
+    "content": "It is harder to distinguish truth from falsehood.",
+    "translation": "辨别真假变得更加困难。",
+    "tags": [
+      "固定句型",
+      "人工智能",
+      "弊端"
+    ]
+  },
+  {
+    "id": 143,
+    "content": "trap us in one-way thinking",
+    "translation": "使我们陷入单向思维",
+    "tags": [
+      "人工智能",
+      "弊端"
+    ]
+  },
+  {
+    "id": 144,
+    "content": "treat disagreement as an attack rather than a chance to learn",
+    "translation": "把不同意见当作攻击，而不是学习的机会",
+    "tags": [
+      "观点表达",
+      "对比转折",
+      "感悟",
+      "人工智能"
+    ]
+  },
+  {
+    "id": 145,
+    "content": "With the School Cultural Festival approaching, I’m ecstatic to extend an invitation to you for an upcoming performance of Peking Opera at our school.",
+    "translation": "随着学校文化节即将到来，我很高兴邀请你观看我校即将上演的京剧。",
+    "tags": [
+      "邀请信",
+      "开头",
+      "非谓语",
+      "活动介绍",
+      "长难句"
+    ]
+  },
+  {
+    "id": 146,
+    "content": "Given your deep-rooted passion for Chinese culture, I am fully convinced that you’ll find the show “Farewell, My Concubine” particularly captivating.",
+    "translation": "鉴于你对中国文化的浓厚兴趣，我相信你一定会觉得《霸王别姬》这场演出格外引人入胜。",
+    "tags": [
+      "邀请信",
+      "活动介绍",
+      "固定句型",
+      "宾语从句",
+      "文化传承"
+    ]
+  },
+  {
+    "id": 147,
+    "content": "We would highly appreciate it if you could reply at your earliest convenience.",
+    "translation": "如能尽早回复，我们将不胜感激。",
+    "tags": [
+      "邀请信",
+      "结尾",
+      "固定句型",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 148,
+    "content": "Upon reading your previous letter and learning about the challenges you have encountered in your studies, I’m writing to offer you my personal insights and practical suggestions.",
+    "translation": "读了你的上一封信并了解到你在学习中遇到的挑战后，我写信向你分享个人见解和实用建议。",
+    "tags": [
+      "建议信",
+      "开头",
+      "非谓语",
+      "定语从句",
+      "长难句"
+    ]
+  },
+  {
+    "id": 149,
+    "content": "I sincerely hope my proposals can contribute to a more lively and interesting course.",
+    "translation": "我真诚地希望我的建议能让课程更加生动有趣。",
+    "tags": [
+      "建议信",
+      "结尾",
+      "虚拟语气",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 150,
+    "content": "I would greatly appreciate it if you could take my suggestions into consideration.",
+    "translation": "若您能考虑我的建议，我将不胜感激。",
+    "tags": [
+      "建议信",
+      "结尾",
+      "固定句型",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 151,
+    "content": "Learning from your last letter that you are passionate about street photography and visual storytelling, I’m more than delighted to give you a brief account of the creative concepts of distinguished photographers and relevant local exhibition resources.",
+    "translation": "从你的上一封信中得知你热衷于街头摄影和视觉叙事后，我很高兴为你简要介绍知名摄影师的创作理念及本地展览资源。",
+    "tags": [
+      "建议信",
+      "开头",
+      "非谓语",
+      "长难句",
+      "活动信息"
+    ]
+  },
+  {
+    "id": 152,
+    "content": "Should you have any questions or concerns, please do not hesitate to contact me.",
+    "translation": "如果你有任何问题或疑虑，请随时与我联系。",
+    "tags": [
+      "建议信",
+      "结尾",
+      "倒装",
+      "虚拟语气",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 153,
+    "content": "I sincerely hope that this journey will grant you rewarding experiences and allow us to create everlasting memories.",
+    "translation": "我真诚地希望这次旅程能给你带来充实的经历，也让我们共同创造永恒的美好回忆。",
+    "tags": [
+      "邀请信",
+      "结尾",
+      "宾语从句",
+      "活动介绍"
+    ]
+  },
+  {
+    "id": 154,
+    "content": "Looking forward to your arrival.",
+    "translation": "期待你的到来。",
+    "tags": [
+      "邀请信",
+      "结尾",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 155,
+    "content": "With great excitement, we formally launch our English writing competition themed “A Lifestyle of Digital Minimalism”.",
+    "translation": "我们怀着万分欣喜，正式启动以“数字极简主义生活方式”为主题的英语写作大赛。",
+    "tags": [
+      "通知",
+      "活动介绍",
+      "活动信息",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 156,
+    "content": "Designed to spark students’ reflection on digital over-consumption, this activity encourages students to discover the long-term benefits of simplifying electronic product usage and practicing digital minimalism in everyday life.",
+    "translation": "本次活动旨在引发学生对数字过度消费的反思，鼓励大家探寻减少电子产品使用、在日常生活中践行数字极简主义的长远益处。",
+    "tags": [
+      "通知",
+      "活动介绍",
+      "非谓语",
+      "长难句",
+      "科技体验"
+    ]
+  },
+  {
+    "id": 157,
+    "content": "Seize this golden opportunity to embark on a rewarding journey that is guaranteed to boost your English writing proficiency and empower you to break free from digital distractions.",
+    "translation": "抓住这个千载难逢的机会，踏上一段有益的旅程，它一定能提高你的英语写作能力，并帮助你摆脱电子设备的干扰。",
+    "tags": [
+      "通知",
+      "活动介绍",
+      "非谓语",
+      "定语从句",
+      "长难句"
+    ]
+  },
+  {
+    "id": 158,
+    "content": "This is an opportunity not to be missed!",
+    "translation": "这是一个不容错过的机会！",
+    "tags": [
+      "通知",
+      "结尾",
+      "活动介绍",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 159,
+    "content": "Against the backdrop of unprecedented advances in artificial intelligence, there has been a heated debate concerning the widespread adoption of ChatGPT in our daily lives.",
+    "translation": "在人工智能取得前所未有进步的背景下，关于 ChatGPT 在日常生活中广泛应用的争论十分激烈。",
+    "tags": [
+      "感悟",
+      "开头",
+      "非谓语",
+      "长难句",
+      "人工智能"
+    ]
+  },
+  {
+    "id": 160,
+    "content": "Regarding the use of ChatGPT, I hold a cautiously optimistic stance, acknowledging both its transformative potential and risks.",
+    "translation": "关于 ChatGPT 的使用，我持谨慎乐观的立场，同时承认它的变革潜力与风险。",
+    "tags": [
+      "感悟",
+      "观点表达",
+      "非谓语",
+      "人工智能"
+    ]
+  },
+  {
+    "id": 161,
+    "content": "All things considered, while I am firmly convinced that ChatGPT can serve as an invaluable educational tool, it is crucial to adopt a balanced and prudent approach to its integration.",
+    "translation": "综合考虑，虽然我坚信 ChatGPT 可以成为宝贵的教育工具，但以平衡、审慎的方式推动其融入教育至关重要。",
+    "tags": [
+      "感悟",
+      "结尾",
+      "让步状语从句",
+      "宾语从句",
+      "长难句",
+      "人工智能"
+    ]
+  },
+  {
+    "id": 162,
+    "content": "Only by doing so can we unlock its full potential while effectively alleviating its possible drawbacks.",
+    "translation": "唯有如此，我们才能充分发挥它的潜力，同时有效减轻其可能带来的弊端。",
+    "tags": [
+      "倒装",
+      "结尾",
+      "非谓语",
+      "固定句型",
+      "人工智能"
+    ]
+  },
+  {
+    "id": 163,
+    "content": "Nowadays, breaking traffic rules and littering have become increasingly prevalent in our community, posing a grave threat to public safety and environmental sustainability.",
+    "translation": "如今，违反交通规则和乱扔垃圾在社区内愈发普遍，对公共安全和环境可持续发展构成严重威胁。",
+    "tags": [
+      "倡议书",
+      "开头",
+      "非谓语",
+      "长难句",
+      "环境保护"
+    ]
+  },
+  {
+    "id": 164,
+    "content": "As a concerned citizen, I feel compelled to draw attention to this problem and put forward feasible solutions.",
+    "translation": "作为一名关心社区的居民，我觉得有必要提请大家关注这一问题，并提出切实可行的解决办法。",
+    "tags": [
+      "倡议书",
+      "开头",
+      "固定句型",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 165,
+    "content": "Every small action counts in the fight for environmental protection and public safety.",
+    "translation": "为保护环境、维护公共安全而付出的每一个小小行动都很重要。",
+    "tags": [
+      "倡议书",
+      "结尾",
+      "环境保护",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 166,
+    "content": "May we unite as one to preserve our shared living environment and maintain public safety.",
+    "translation": "愿我们团结一心，保护共同的生活环境，维护公共安全。",
+    "tags": [
+      "倡议书",
+      "结尾",
+      "虚拟语气",
+      "环境保护"
+    ]
+  },
+  {
+    "id": 167,
+    "content": "Based on a survey I conducted among my classmates concerning English extensive reading, the attached chart reveals that students with a consistent reading habit account for a mere 7%, followed by 73% doing extensive reading occasionally, while a striking 20% have never taken part in such practice.",
+    "translation": "根据我在同学中开展的一项英语课外阅读调查，图表显示：有稳定阅读习惯的学生仅占 7%，偶尔阅读的占 73%，而高达 20% 的学生从未参与过此类活动。",
+    "tags": [
+      "图表作文",
+      "开头",
+      "非谓语",
+      "长难句",
+      "阅读活动"
+    ]
+  },
+  {
+    "id": 168,
+    "content": "Considering the statistics above, the current situation of students’ English extensive reading is far from satisfactory.",
+    "translation": "综合以上数据不难看出，学生英语课外阅读的现状远不尽如人意。",
+    "tags": [
+      "图表作文",
+      "结尾",
+      "非谓语",
+      "阅读活动"
+    ]
+  },
+  {
+    "id": 169,
+    "content": "To change this trend, schools should provide more classic English reading materials and teachers can encourage us to work out daily reading routines.",
+    "translation": "为改变这一现状，学校应提供更多经典英语阅读材料，教师也可以鼓励我们制定日常阅读计划。",
+    "tags": [
+      "图表作文",
+      "建议",
+      "阅读活动",
+      "目的状语",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 170,
+    "content": "Only by adhering to consistent reading can we polish our comprehensive English competence and foster a long-term reading habit.",
+    "translation": "只有坚持持续阅读，我们才能提升综合英语能力并培养长期阅读习惯。",
+    "tags": [
+      "倒装",
+      "图表作文",
+      "结尾",
+      "非谓语",
+      "固定句型",
+      "阅读活动"
+    ]
+  },
+  {
+    "id": 171,
+    "content": "Upon learning that your organization is seeking multilingual volunteers for reception service, I am writing to apply for the position.",
+    "translation": "得知贵机构正在招募多语言接待志愿者后，我特此写信申请该岗位。",
+    "tags": [
+      "申请信",
+      "开头",
+      "非谓语",
+      "宾语从句"
+    ]
+  },
+  {
+    "id": 172,
+    "content": "I am fully convinced that my language proficiency and communication strengths perfectly qualify me for the position.",
+    "translation": "我坚信自己的语言水平和沟通优势完全能够使我胜任这份工作。",
+    "tags": [
+      "申请信",
+      "观点表达",
+      "宾语从句",
+      "固定句型"
+    ]
+  },
+  {
+    "id": 173,
+    "content": "I would appreciate it if you could give favorable consideration to my application.",
+    "translation": "若您能审阅并考虑我的申请，我将不胜感激。",
+    "tags": [
+      "申请信",
+      "结尾",
+      "固定句型",
+      "虚拟语气"
+    ]
+  },
+  {
+    "id": 174,
+    "content": "I stand ready to dedicate myself entirely to this post and render wholehearted service.",
+    "translation": "我已做好充分准备，全身心投入该岗位并竭诚提供服务。",
+    "tags": [
+      "申请信",
+      "结尾",
+      "非谓语",
+      "承诺"
+    ]
+  },
+  {
+    "id": 175,
+    "content": "listening to soft classical music",
+    "translation": "听轻柔的古典音乐",
+    "tags": [
+      "心理调节",
+      "情绪调节"
+    ]
+  },
+  {
+    "id": 176,
+    "content": "Set aside 20 minutes each day to paint or draw.",
+    "translation": "每天抽出 20 分钟画画。",
+    "tags": [
+      "心理调节",
+      "情绪调节",
+      "建议",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 177,
+    "content": "Immerse yourself in colors and lines.",
+    "translation": "沉浸在色彩与线条中。",
+    "tags": [
+      "心理调节",
+      "情绪调节",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 178,
+    "content": "Calm your racing mind.",
+    "translation": "平复你纷乱的思绪。",
+    "tags": [
+      "心理调节",
+      "情绪调节"
+    ]
+  },
+  {
+    "id": 179,
+    "content": "Distract you from pressure and bring you inner peace.",
+    "translation": "帮助你摆脱压力，带给你内心的平静。",
+    "tags": [
+      "心理调节",
+      "情绪调节"
+    ]
+  },
+  {
+    "id": 180,
+    "content": "Start off with a fascinating exhibition.",
+    "translation": "以一场精彩的展览拉开序幕。",
+    "tags": [
+      "活动介绍",
+      "活动信息",
+      "校园生活"
+    ]
+  },
+  {
+    "id": 181,
+    "content": "Introduce us to the remarkable achievements in Chinese science history.",
+    "translation": "向我们介绍中国科学史上的辉煌成就。",
+    "tags": [
+      "活动介绍",
+      "校园生活",
+      "科技创新"
+    ]
+  },
+  {
+    "id": 182,
+    "content": "Conduct intriguing experiments under the guidance of professors.",
+    "translation": "在教授的指导下完成趣味十足的实验。",
+    "tags": [
+      "活动介绍",
+      "校园生活",
+      "科技体验"
+    ]
+  },
+  {
+    "id": 183,
+    "content": "offered visitors a unique and fantastic visual feast",
+    "translation": "为参观者带来独特而奇幻的视觉盛宴",
+    "tags": [
+      "活动介绍",
+      "校园生活",
+      "科技体验"
+    ]
+  },
+  {
+    "id": 184,
+    "content": "Be exposed to various cyber threats, ranging from identity theft to online scams.",
+    "translation": "面临各种网络威胁，从身份盗窃到网络诈骗。",
+    "tags": [
+      "网络安全",
+      "非谓语",
+      "长难句"
+    ]
+  },
+  {
+    "id": 185,
+    "content": "The leakage of personal information or financial loss.",
+    "translation": "个人信息泄露或财产损失。",
+    "tags": [
+      "网络安全",
+      "信息安全"
+    ]
+  },
+  {
+    "id": 186,
+    "content": "Set strong passwords that include both letters and numbers.",
+    "translation": "设置同时包含字母和数字的强密码。",
+    "tags": [
+      "网络安全",
+      "建议",
+      "定语从句"
+    ]
+  },
+  {
+    "id": 187,
+    "content": "Stay away from unfamiliar messages and suspicious links.",
+    "translation": "远离陌生信息和可疑链接。",
+    "tags": [
+      "网络安全",
+      "建议"
+    ]
+  },
+  {
+    "id": 188,
+    "content": "Log out in time when using shared devices.",
+    "translation": "使用公用设备时及时退出登录。",
+    "tags": [
+      "网络安全",
+      "非谓语",
+      "建议"
+    ]
+  },
+  {
+    "id": 189,
+    "content": "Appreciate its time-honored development.",
+    "translation": "欣赏它悠久的发展历史。",
+    "tags": [
+      "文化传承",
+      "活动介绍"
+    ]
+  },
+  {
+    "id": 190,
+    "content": "Spread the essence of Chinese culture.",
+    "translation": "传播中国文化的精髓。",
+    "tags": [
+      "文化传承",
+      "活动介绍"
+    ]
+  },
+  {
+    "id": 191,
+    "content": "Boost cultural prosperity.",
+    "translation": "促进文化繁荣。",
+    "tags": [
+      "文化传承",
+      "科技创新"
+    ]
+  },
+  {
+    "id": 192,
+    "content": "A helpful resource for translation and comprehension.",
+    "translation": "有助于翻译和理解的资源。",
+    "tags": [
+      "科技创新",
+      "优势",
+      "文化传承"
+    ]
+  },
+  {
+    "id": 193,
+    "content": "China’s cutting-edge scientific achievements.",
+    "translation": "中国前沿的科学成就。",
+    "tags": [
+      "科技创新",
+      "活动介绍"
+    ]
+  },
+  {
+    "id": 194,
+    "content": "unfold with a new literary masterpiece, ranging from classic novels to contemporary poetry",
+    "translation": "以一部新的文学杰作为开端，涵盖从古典小说到当代诗歌",
+    "tags": [
+      "活动介绍",
+      "阅读活动",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 195,
+    "content": "is conducted in a mixed format of lectures, interactive discussions, and individual presentations",
+    "translation": "以讲座、互动讨论和个人展示相结合的形式开展",
+    "tags": [
+      "活动介绍",
+      "阅读活动"
+    ]
+  },
+  {
+    "id": 196,
+    "content": "Spark a fervent passion for literature within me.",
+    "translation": "点燃我内心对文学的热烈热情。",
+    "tags": [
+      "感悟",
+      "阅读活动"
+    ]
+  },
+  {
+    "id": 197,
+    "content": "Wander endlessly in the lush gardens of English literature.",
+    "translation": "在英国文学葱郁的花园中尽情漫步。",
+    "tags": [
+      "感悟",
+      "阅读活动",
+      "文化传承"
+    ]
+  },
+  {
+    "id": 198,
+    "content": "Apply the concept of green development.",
+    "translation": "践行绿色发展理念。",
+    "tags": [
+      "环境保护",
+      "倡议书"
+    ]
+  },
+  {
+    "id": 199,
+    "content": "Advocate living a low-carbon life to achieve sustainable development.",
+    "translation": "倡导低碳生活，以实现可持续发展。",
+    "tags": [
+      "环境保护",
+      "倡议书",
+      "目的状语"
+    ]
+  },
+  {
+    "id": 200,
+    "content": "Adopt green and advanced technology to reduce pollution.",
+    "translation": "采用绿色先进技术来减少污染。",
+    "tags": [
+      "环境保护",
+      "科技创新",
+      "倡议书",
+      "目的状语"
+    ]
+  },
+  {
+    "id": 201,
+    "content": "Foster meaningful connections with the local community.",
+    "translation": "与本地社区建立有意义的联系。",
+    "tags": [
+      "社区志愿服务",
+      "活动介绍"
+    ]
+  },
+  {
+    "id": 202,
+    "content": "Undertake hands-on voluntary service initiatives.",
+    "translation": "开展实操性志愿服务项目。",
+    "tags": [
+      "社区志愿服务",
+      "活动介绍"
+    ]
+  },
+  {
+    "id": 203,
+    "content": "Cultivate a spirit of mutual support and compassion.",
+    "translation": "培养互助与共情的精神。",
+    "tags": [
+      "社区志愿服务",
+      "感悟"
+    ]
+  },
+  {
+    "id": 204,
+    "content": "Contribute to the betterment of the local community.",
+    "translation": "为改善本地社区贡献力量。",
+    "tags": [
+      "社区志愿服务",
+      "倡议书"
+    ]
+  },
+  {
+    "id": 205,
+    "content": "Embrace the ethos of hard work and craftsmanship.",
+    "translation": "秉持实干与工匠精神。",
+    "tags": [
+      "劳动教育",
+      "感悟"
+    ]
+  },
+  {
+    "id": 206,
+    "content": "Pursue excellence through meticulous labor practice.",
+    "translation": "通过严谨的劳动实践追求卓越。",
+    "tags": [
+      "劳动教育",
+      "感悟",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 207,
+    "content": "Uphold the value of dedication and professional rigor.",
+    "translation": "秉持敬业、严谨的职业价值观。",
+    "tags": [
+      "劳动教育",
+      "感悟"
+    ]
+  },
+  {
+    "id": 208,
+    "content": "Cultivate a commitment to lifelong improvement.",
+    "translation": "树立终身精进、持续提升的意识。",
+    "tags": [
+      "劳动教育",
+      "感悟"
+    ]
+  },
+  {
+    "id": 209,
+    "content": "Embark on experiential learning journeys.",
+    "translation": "开启沉浸式研学之旅。",
+    "tags": [
+      "研学实践",
+      "活动介绍"
+    ]
+  },
+  {
+    "id": 210,
+    "content": "Bridge the gap between theory and real-world practice.",
+    "translation": "打通理论与现实实践之间的壁垒。",
+    "tags": [
+      "研学实践",
+      "感悟"
+    ]
+  },
+  {
+    "id": 211,
+    "content": "Broaden horizons through immersive field exploration.",
+    "translation": "通过沉浸式实地探索拓宽视野。",
+    "tags": [
+      "研学实践",
+      "活动介绍",
+      "非谓语"
+    ]
+  },
+  {
+    "id": 212,
+    "content": "Gain first-hand insights into real-life scenarios.",
+    "translation": "获得对现实场景的一手认识。",
+    "tags": [
+      "研学实践",
+      "感悟"
+    ]
   }
 ]

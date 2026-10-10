@@ -132,6 +132,7 @@ body {
 .field { display: flex; }
 .field-search { flex: 1 1 260px; min-width: 200px; }
 .field-actions { margin-left: auto; }
+.field-tag-group { gap: 6px; }
 
 .toolbar input[type="search"],
 .toolbar select {
@@ -360,4 +361,90 @@ body {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
+}
+
+/* ---------------------------------------------------------------- 标签搜索弹窗 */
+
+.tag-search-box { margin-bottom: 8px; }
+
+.tag-search-box input[type="search"] {
+  width: 100%;
+  padding: 9px 12px;
+  font: inherit;
+  color: var(--text);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+.tag-search-box input[type="search"]:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-light);
+}
+
+.tag-search-hint {
+  margin: 0 0 10px;
+  min-height: 18px;
+  color: var(--text-muted);
+  font-size: 12.5px;
+}
+
+.tag-search-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 320px;
+  overflow-y: auto;
+  padding: 12px;
+  background: var(--page-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  font: inherit;
+  font-size: 13.5px;
+  color: var(--text);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: border-color .15s ease, color .15s ease, background .15s ease;
+}
+
+.tag-chip:hover { border-color: var(--primary); color: var(--primary); }
+
+.tag-chip.is-active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.tag-chip-count {
+  font-size: 11.5px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: var(--primary-light);
+  color: var(--primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.tag-chip.is-active .tag-chip-count {
+  background: rgba(255, 255, 255, .25);
+  color: #fff;
+}
+
+.tag-search-empty {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13.5px;
 }

@@ -43,7 +43,9 @@
       "tabs", "alert", "search-input", "scope-select", "tag-select", "new-btn",
       "result-meta", "mode-badge", "list", "prev-btn", "next-btn", "pager-info",
       "modal", "modal-title", "sentence-form", "form-content", "form-translation",
-      "form-tags", "form-error", "cancel-btn", "submit-btn"
+      "form-tags", "form-error", "cancel-btn", "submit-btn",
+      "tag-modal", "tag-search-btn", "tag-search-input", "tag-search-list",
+      "tag-search-hint", "tag-clear-btn", "tag-done-btn"
     ].forEach(function (id) {
       el[id] = document.getElementById(id);
     });
@@ -147,6 +149,8 @@
 
   function loadStatic(module) {
     if (staticCache[module]) { return Promise.resolve(staticCache[module]); }
+    // file:// 下浏览器禁止 fetch 本地 JSON，改用 <script> 加载 data.js（由 build_static.py 生成）
+    if (location.protocol === "file:") { return loadScriptData(module); }
     return Promise.all([
       fetch("api/" + module + "/sentences.json", { cache: "no-cache" }).then(ensureOk),
       fetch("api/" + module + "/tags.json", { cache: "no-cache" }).then(ensureOk)
@@ -157,11 +161,45 @@
     });
   }
 
+  function loadScriptData(module) {
+    return new Promise(function (resolve, reject) {
+      var script = document.createElement("script");
+      script.src = "api/" + module + "/data.js";
+      script.onload = function () {
+        var data = window.__CORPUS_DATA__ && window.__CORPUS_DATA__[module];
+        if (data && data.sentences) {
+          staticCache[module] = data;
+          resolve(data);
+        } else {
+          reject(new Error("data.js 里没有 " + module + " 的数据，请重新运行 python build_static.py"));
+        }
+      };
+      script.onerror = function () {
+        reject(new Error("无法加载 api/" + module + "/data.js，请先运行 python build_static.py 生成静态数据"));
+      };
+      document.head.appendChild(script);
+    });
+  }
+
   function ensureOk(response) {
     if (!response.ok) {
       throw new Error("静态数据加载失败（HTTP " + response.status + "），请先运行 python build_static.py");
     }
     return response.json();
+  }
+
+  /** 把底层报错翻译成人话（尤其是 file:// 双击打开的场景）。 */
+  function friendlyError(err) {
+    var msg = (err && err.message) || String(err);
+    if (msg === "Failed to fetch" || msg.indexOf("NetworkError") !== -1 || msg.indexOf("Failed to fetch") !== -1) {
+      if (location.protocol === "file:") {
+        return "当前是直接双击打开的页面（file://），浏览器会阻止读取本地数据。两种解决办法："
+          + "① 静态浏览：在项目目录运行 python -m http.server 8300，然后访问 http://127.0.0.1:8300；"
+          + "② 本地编辑：运行 python main.py 后把 config.js 切回本地模式。详见 导入教程.md。";
+      }
+      return "网络请求失败：静态模式需要先运行 python build_static.py 生成数据，并通过 HTTP 访问页面（不要用 file:// 直接打开）。";
+    }
+    return msg;
   }
 
   function staticFilter(payload, query) {
@@ -222,7 +260,7 @@
         applyList(staticFilter(payload, currentQuery()));
       }).catch(function (err) {
         if (seq !== requestSeq) { return; }
-        showError(err.message);
+        showError(friendlyError(err));
         applyList({ items: [], total: 0, page: state.page, total_pages: 0 });
       });
     }
@@ -234,7 +272,7 @@
       })
       .catch(function (err) {
         if (seq !== requestSeq) { return; }
-        showError(err.message);
+        showError(friendlyError(err));
         applyList({ items: [], total: 0, page: state.page, total_pages: 0 });
       });
   }
@@ -255,20 +293,21 @@
   // ---------------------------------------------------------------- 标签
 
   function loadTags() {
+    tagIndexCache[state.module] = null;   // 数据可能已变化，弹窗下次打开时重新拉取
     if (!IS_LOCAL) {
       return loadStatic(state.module).then(function (payload) {
         renderTagOptions((payload.tags || []).map(function (entry) {
           return entry && entry.tag != null ? entry.tag : String(entry);
         }));
       }).catch(function (err) {
-        showError(err.message);
+        showError(friendlyError(err));
       });
     }
 
     return request("/" + state.module + "/tags").then(function (data) {
       renderTagOptions((data && data.tags) || []);
     }).catch(function (err) {
-      showError(err.message);
+      showError(friendlyError(err));
     });
   }
 
@@ -303,6 +342,92 @@
         })).join("");
       select.value = state.tag;
     }
+  }
+
+  // -------------------------------------------------------- 标签搜索弹窗
+
+  var tagIndexCache = {};   // { module: [{tag, count|null}] }，count 为 null 表示本地模式无统计
+
+  /** 拉取当前分区全部标签（带可选的出现次数），结果按模块缓存。 */
+  function getTagIndex() {
+    if (tagIndexCache[state.module]) {
+      return Promise.resolve(tagIndexCache[state.module]);
+    }
+    if (!IS_LOCAL) {
+      return loadStatic(state.module).then(function (payload) {
+        var list = (payload.tags || []).map(function (entry) {
+          return entry && entry.tag != null
+            ? { tag: String(entry.tag), count: (entry.count == null ? null : Number(entry.count)) }
+            : { tag: String(entry), count: null };
+        });
+        tagIndexCache[state.module] = list;
+        return list;
+      });
+    }
+    return request("/" + state.module + "/tags").then(function (data) {
+      var list = ((data && data.tags) || []).map(function (tag) {
+        return { tag: String(tag), count: null };
+      });
+      tagIndexCache[state.module] = list;
+      return list;
+    });
+  }
+
+  function openTagModal() {
+    if (!el["tag-modal"]) { return; }
+    el["tag-search-input"].value = "";
+    el["tag-modal"].hidden = false;
+    el["tag-search-input"].focus();
+    renderTagSearchList("");                      // 先用缓存立即渲染
+    getTagIndex().then(function () {
+      renderTagSearchList(el["tag-search-input"].value);
+    }).catch(function (err) {
+      el["tag-modal"].hidden = true;
+      showError(friendlyError(err));
+    });
+  }
+
+  function closeTagModal() {
+    if (el["tag-modal"]) { el["tag-modal"].hidden = true; }
+  }
+
+  function renderTagSearchList(keyword) {
+    if (!el["tag-search-list"]) { return; }
+    var list = tagIndexCache[state.module] || [];
+    var kw = String(keyword || "").trim().toLowerCase();
+    var filtered = kw
+      ? list.filter(function (entry) { return entry.tag.toLowerCase().indexOf(kw) !== -1; })
+      : list;
+
+    if (el["tag-search-hint"]) {
+      el["tag-search-hint"].textContent = !list.length
+        ? ""
+        : (kw
+          ? "匹配 " + filtered.length + " / " + list.length + " 个标签"
+          : "共 " + list.length + " 个标签，点击即可筛选");
+    }
+
+    if (!filtered.length) {
+      el["tag-search-list"].innerHTML = list.length
+        ? '<div class="tag-search-empty">没有匹配「' + escapeHtml(kw) + "」的标签</div>"
+        : '<div class="tag-search-empty">暂无标签数据</div>';
+      return;
+    }
+
+    el["tag-search-list"].innerHTML = filtered.map(function (entry) {
+      var active = entry.tag === state.tag ? " is-active" : "";
+      var count = entry.count == null ? "" :
+        '<span class="tag-chip-count">' + entry.count + "</span>";
+      return '<button type="button" class="tag-chip' + active + '" data-tag="' +
+        escapeHtml(entry.tag) + '">' + escapeHtml(entry.tag) + count + "</button>";
+    }).join("");
+  }
+
+  function applyTagSelection(tag) {
+    state.tag = tag || "";
+    if (el["tag-select"]) { el["tag-select"].value = state.tag; }
+    closeTagModal();
+    applyFilters();
   }
 
   // ---------------------------------------------------------------- 渲染
@@ -473,7 +598,7 @@
       closeForm();
       return Promise.all([loadTags(), loadList()]);
     }).catch(function (err) {
-      el["form-error"].textContent = err.message;
+      el["form-error"].textContent = friendlyError(err);
       el["form-error"].hidden = false;
     }).then(function () {
       el["submit-btn"].disabled = false;
@@ -488,7 +613,7 @@
         return Promise.all([loadTags(), loadList()]);
       })
       .catch(function (err) {
-        showError(err.message);
+        showError(friendlyError(err));
       });
   }
 
@@ -538,8 +663,37 @@
       });
     }
 
+    if (el["tag-search-btn"]) {
+      el["tag-search-btn"].addEventListener("click", openTagModal);
+    }
+    if (el["tag-search-input"]) {
+      el["tag-search-input"].addEventListener("input", function () {
+        renderTagSearchList(el["tag-search-input"].value);
+      });
+    }
+    if (el["tag-search-list"]) {
+      el["tag-search-list"].addEventListener("click", function (event) {
+        var chip = event.target.closest(".tag-chip");
+        if (chip) { applyTagSelection(chip.getAttribute("data-tag")); }
+      });
+    }
+    if (el["tag-clear-btn"]) {
+      el["tag-clear-btn"].addEventListener("click", function () { applyTagSelection(""); });
+    }
+    if (el["tag-done-btn"]) {
+      el["tag-done-btn"].addEventListener("click", closeTagModal);
+    }
+    if (el["tag-modal"]) {
+      el["tag-modal"].addEventListener("click", function (event) {
+        if (event.target === el["tag-modal"]) { closeTagModal(); }
+      });
+    }
+
     document.addEventListener("keydown", function (event) {
-      if (event.key === "Escape" && el.modal && !el.modal.hidden) { closeForm(); }
+      if (event.key === "Escape") {
+        if (el.modal && !el.modal.hidden) { closeForm(); }
+        if (el["tag-modal"] && !el["tag-modal"].hidden) { closeTagModal(); }
+      }
     });
 
     if (el["sentence-form"]) {

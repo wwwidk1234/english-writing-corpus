@@ -94,6 +94,20 @@ def write_config(static: bool) -> None:
     target.write_text(STATIC_CONFIG if static else LOCAL_CONFIG, encoding="utf-8", newline="\n")
 
 
+def write_data_js(module: str, items: List[dict], tags: List[dict]) -> None:
+    """额外生成 data.js：以 <script> 方式暴露同一份数据。
+
+    双击以 file:// 打开页面时浏览器禁止 fetch 本地 JSON，
+    前端会改用 script 标签加载这份文件，保证离线双击也能浏览。
+    """
+    target = API_DIR / module / "data.js"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps({"sentences": items, "tags": tags}, ensure_ascii=False)
+    text = ("window.__CORPUS_DATA__ = window.__CORPUS_DATA__ || {};\n"
+            f'window.__CORPUS_DATA__["{module}"] = {payload};\n')
+    target.write_text(text, encoding="utf-8", newline="\n")
+
+
 def main(argv: List[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="生成 public/api 下的静态 JSON")
     parser.add_argument("--write-config", action="store_true",
@@ -113,6 +127,7 @@ def main(argv: List[str] | None = None) -> int:
         tags = build_tags(items)
         write_json(API_DIR / module / "sentences.json", items)
         write_json(API_DIR / module / "tags.json", tags)
+        write_data_js(module, items, tags)
         print(f"  [{module}] 句子 {len(items)} 条，标签 {len(tags)} 个 -> "
               f"{API_DIR / module / 'sentences.json'}")
 

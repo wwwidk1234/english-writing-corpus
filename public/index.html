@@ -32,11 +32,12 @@
           <option value="translation">仅译文</option>
         </select>
       </div>
-      <div class="field">
+      <div class="field field-tag-group">
         <label class="sr-only" for="tag-select">标签筛选</label>
         <select id="tag-select" title="标签筛选">
           <option value="">全部标签</option>
         </select>
+        <button class="btn" type="button" id="tag-search-btn" title="搜索标签">🔍 标签</button>
       </div>
       <div class="field field-actions">
         <button class="btn btn-primary" type="button" id="new-btn" hidden>+ 新增</button>
@@ -80,6 +81,23 @@
           <button class="btn btn-primary" type="submit" id="submit-btn">保存</button>
         </div>
       </form>
+    </div>
+  </div>
+
+  <!-- 标签搜索弹窗 -->
+  <div class="modal-backdrop" id="tag-modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="tag-modal-title">
+      <h2 class="modal-title" id="tag-modal-title">搜索标签</h2>
+      <div class="tag-search-box">
+        <label class="sr-only" for="tag-search-input">筛选标签</label>
+        <input id="tag-search-input" type="search" placeholder="输入关键词，如：邀请、倒装、环境…" autocomplete="off">
+      </div>
+      <p class="tag-search-hint" id="tag-search-hint"></p>
+      <div class="tag-search-list" id="tag-search-list"></div>
+      <div class="modal-actions">
+        <button class="btn" type="button" id="tag-clear-btn">清除标签筛选</button>
+        <button class="btn btn-primary" type="button" id="tag-done-btn">完成</button>
+      </div>
     </div>
   </div>
 
